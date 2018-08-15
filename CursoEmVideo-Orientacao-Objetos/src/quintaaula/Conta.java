@@ -22,4 +22,10 @@ public class Conta {
 	public void fecharConta() {
 		
 	}
+	
+	public void sacar(double valor) {
+		
+		this.saldo -= valor;
+	}
+	
 }
