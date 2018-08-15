@@ -31,4 +31,44 @@ public class Caneta {
 	public void destampar() {
 		this.tampada = false;
 	}
+
+	public String getModelo() {
+		return this.modelo;
+	}
+
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+
+	public String getCor() {
+		return this.cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public float getPonta() {
+		return this.ponta;
+	}
+
+	public void setPonta(float ponta) {
+		this.ponta = ponta;
+	}
+
+	public int getCarga() {
+		return this.carga;
+	}
+
+	public void setCarga(int carga) {
+		this.carga = carga;
+	}
+
+	public boolean isTampada() {
+		return this.tampada;
+	}
+
+	public void setTampada(boolean tampada) {
+		this.tampada = tampada;
+	}
 }
