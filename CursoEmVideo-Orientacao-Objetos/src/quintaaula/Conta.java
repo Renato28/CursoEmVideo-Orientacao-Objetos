@@ -46,8 +46,7 @@ public class Conta {
 		if(this.status == true) {
 			
 			this.saldo -= valor;
-		}else {
-			
+		}else {	
 			System.out.println("Saldo insuficiente");
 		}
 	}
@@ -61,15 +60,23 @@ public class Conta {
 	}
 
 	public void pagarMensalidade() {
-
+		double valor = 0;
+		
 		if (this.tipo == "CP") {
 
-			this.saldo = this.saldo - 20;
+			valor = 12;
 		}
 
 		if (this.tipo == "CC") {
 
-			this.saldo = this.saldo - 12;
+			valor = 20;
+		}if(this.saldo > valor) {
+			
+			this.saldo = this.saldo - valor;
+			
+		}else {
+			
+			System.out.println("Saldo insuficiente");
 		}
 	}
 
