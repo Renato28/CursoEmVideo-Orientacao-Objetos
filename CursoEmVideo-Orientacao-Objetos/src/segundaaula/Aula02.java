@@ -17,5 +17,10 @@ public class Aula02 {
 		c2.modelo = "Hostnet";
 		c2.cor = "Preta";
 		
+		c2.destampar();
+		c2.rabiscar();
+		c2.status();
+		
+		
 	}
 }
