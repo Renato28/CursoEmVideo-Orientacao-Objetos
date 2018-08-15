@@ -27,5 +27,9 @@ public class Caneta {
 	public void tampar() {
 		this.tampada = true;
 	}
+	
+	public void destampar() {
+		this.tampada = false;
+	}
 
 }
