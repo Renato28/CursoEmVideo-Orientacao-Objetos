@@ -46,6 +46,9 @@ public class Conta {
 		if(this.status == true) {
 			
 			this.saldo -= valor;
+		}else {
+			
+			System.out.println("Saldo insuficiente");
 		}
 	}
 	public void depositar(double valor) {
