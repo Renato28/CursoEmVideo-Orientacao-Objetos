@@ -14,18 +14,23 @@ public class Conta {
 		this.saldo = 0;
 	}
 
-	public void abrirConta() {
+	public void abrirConta(String tipo) {
 
-		if (this.tipo == "CC") {
-			this.saldo = this.saldo + 50;
-		} else if (this.tipo == "CP") {
-			this.saldo = this.saldo + 150;
+		this.setTipo(tipo);
+		this.setStatus(true);
+
+		if (tipo == "CC") {
+			this.setSaldo(50);
+		} else if (tipo == "CP") {
+			this.setSaldo(150);
 		}
-		this.status = true;
 	}
 
 	public void fecharConta() {
 
+		if (this.saldo < 0 && this.status == false) {
+			this.status = true;
+		}
 	}
 
 	public void sacar(double valor) {
