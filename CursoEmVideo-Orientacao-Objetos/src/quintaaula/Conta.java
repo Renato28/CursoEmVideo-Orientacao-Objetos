@@ -7,4 +7,10 @@ public class Conta {
 	protected String tipo;
 	private double saldo;
 	private boolean status;
+	
+	public Conta() {
+		
+		this.status = false;
+		this.saldo = 0;
+	}
 }
