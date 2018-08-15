@@ -18,4 +18,8 @@ public class Conta {
 		
 		this.status = true;
 	}
+	
+	public void fecharConta() {
+		
+	}
 }
