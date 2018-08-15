@@ -13,4 +13,9 @@ public class Conta {
 		this.status = false;
 		this.saldo = 0;
 	}
+	
+	public void abrirConta() {
+		
+		this.status = true;
+	}
 }
