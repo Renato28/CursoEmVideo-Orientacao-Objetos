@@ -16,6 +16,11 @@ public class Conta {
 
 	public void abrirConta() {
 
+		if (this.tipo == "CC") {
+			this.saldo = this.saldo + 50;
+		} else if (this.tipo == "CP") {
+			this.saldo = this.saldo + 150;
+		}
 		this.status = true;
 	}
 
