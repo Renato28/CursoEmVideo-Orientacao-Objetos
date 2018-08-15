@@ -33,6 +33,10 @@ public class Conta {
 	
 	public void depositar(double valor) {
 		
+		if(this.status == true) {
+			
+			this.saldo += valor;
+		}
 		
 	}
 	
