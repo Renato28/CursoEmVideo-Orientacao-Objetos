@@ -40,4 +40,17 @@ public class Conta {
 		
 	}
 	
+	public void pagarMensalidade() {
+		
+		if(this.tipo == "CP") {
+			
+			this.saldo = this.saldo - 20;
+		}
+		
+		if(this.tipo == "CC") {
+			
+			this.saldo = this.saldo - 12;
+		}
+	}
+	
 }
