@@ -23,4 +23,8 @@ public class Caneta {
 			System.out.println("Estou Rabiscando...");
 		}
 	}
+	
+	public void tampar() {
+		this.tampada = true;
+	}
 }
