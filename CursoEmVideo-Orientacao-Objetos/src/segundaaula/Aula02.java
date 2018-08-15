@@ -13,5 +13,9 @@ public class Aula02 {
 		c1.status();
 		c1.rabiscar();
 		
+		Caneta c2 = new Caneta();
+		c2.modelo = "Hostnet";
+		c2.cor = "Preta";
+		
 	}
 }
