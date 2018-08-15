@@ -42,13 +42,12 @@ public class Conta {
 	}
 
 	public void sacar(double valor) {
-
-		if (this.status == true && this.saldo > 0) {
-
+		
+		if(this.status == true) {
+			
 			this.saldo -= valor;
 		}
 	}
-
 	public void depositar(double valor) {
 
 		if (this.status == true) {
