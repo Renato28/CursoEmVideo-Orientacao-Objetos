@@ -25,7 +25,10 @@ public class Conta {
 	
 	public void sacar(double valor) {
 		
-		this.saldo -= valor;
+		if(this.status == true && this.saldo > 0) {
+			
+			this.saldo -= valor;
+		}
 	}
 	
 }
