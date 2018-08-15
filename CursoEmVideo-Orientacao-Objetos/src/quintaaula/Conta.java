@@ -28,8 +28,16 @@ public class Conta {
 
 	public void fecharConta() {
 
-		if (this.saldo < 0 && this.status == false) {
-			this.status = true;
+		if (this.getSaldo() > 0) {
+
+			System.out.println("Conta com dinheiro");
+
+		} else if (this.getSaldo() < 0) {
+
+			System.out.println("Conta com débito");
+		} else {
+
+			this.setStatus(false);
 		}
 	}
 
