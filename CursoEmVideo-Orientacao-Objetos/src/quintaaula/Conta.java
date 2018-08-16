@@ -24,6 +24,7 @@ public class Conta {
 		} else if (tipo == "CP") {
 			this.setSaldo(150);
 		}
+		System.out.println("Conta aberta com sucesso!");
 	}
 
 	public void fecharConta() {
@@ -38,45 +39,59 @@ public class Conta {
 		} else {
 
 			this.setStatus(false);
+			System.out.println("Conta fechada com sucesso!");
 		}
 	}
 
 	public void sacar(double valor) {
-		
-		if(this.status == true) {
-			
-			this.saldo -= valor;
-		}else {	
-			System.out.println("Saldo insuficiente");
+
+		if (this.isStatus()) {
+
+			if(this.getSaldo() >= valor) {
+				
+				this.setSaldo(this.getSaldo() - valor);
+				System.out.println("Saque realizado na conta de " + this.getNomeDono());
+			}else {
+				System.out.println("Saldo insuficiente para saque!");
+			}
+		}else {
+			System.out.println("Impossivel sacar de uma conta fechada!");
 		}
 	}
+
 	public void depositar(double valor) {
 
-		if (this.status == true) {
+		if (this.isStatus()) {
 
-			this.saldo += valor;
+			this.setSaldo(this.getSaldo() + valor);
+			System.out.println("Deposito realizado na conta de !" + this.getNomeDono());
+		} else {
+			System.out.println("Inpossivel depositar em uma conta fechada!");
 		}
 
 	}
 
 	public void pagarMensalidade() {
-		double valor = 0;
 		
-		if (this.tipo == "CP") {
+		int valor = 0;
+
+		if (this.getTipo() == "CP") {
 
 			valor = 12;
 		}
 
-		if (this.tipo == "CC") {
+		if (this.getTipo() == "CC") {
 
 			valor = 20;
-		}if(this.saldo > valor) {
-			
-			this.saldo = this.saldo - valor;
-			
-		}else {
-			
-			System.out.println("Saldo insuficiente");
+		}
+		if (this.isStatus()) {
+
+			this.setSaldo(this.getSaldo() - valor);
+			System.out.println("Mensalidade paga com sucesso por " + this.getNomeDono());
+
+		} else {
+
+			System.out.println("Impossivel pagar uma conta fechada!");
 		}
 	}
 
