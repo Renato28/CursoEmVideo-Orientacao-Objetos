@@ -47,7 +47,7 @@ public class ControleRemoto implements Controlador{
 	@Override
 	public void ligar() {
 		
-		
+		this.setLigado(true);
 	}
 
 	@Override
