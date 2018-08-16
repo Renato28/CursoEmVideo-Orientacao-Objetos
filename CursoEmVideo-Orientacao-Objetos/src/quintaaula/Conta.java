@@ -7,7 +7,16 @@ public class Conta {
 	protected String tipo;
 	private double saldo;
 	private boolean status;
-
+	
+	public void estadoAtual() {
+		
+		System.out.println("----------------------------");
+		System.out.println("Conta: " + this.getNumConta());
+		System.out.println("Tipo: " + this.getTipo());
+		System.out.println("Dono: " + this.getNomeDono());
+		System.out.println("Saldo: " + this.getSaldo());
+		System.out.println("Status: " + this.isStatus());
+	}
 	public Conta() {
 
 		this.status = false;
