@@ -122,7 +122,10 @@ public class ControleRemoto implements Controlador{
 	@Override
 	public void pause() {
 		
-		
+		if((this.getTocando()) && this.getTocando()){
+			
+			this.setTocando(false);
+		}
 	}
 	
 	
