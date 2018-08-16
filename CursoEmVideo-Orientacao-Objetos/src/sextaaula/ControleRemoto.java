@@ -59,7 +59,13 @@ public class ControleRemoto implements Controlador{
 	@Override
 	public void abrirMenu() {
 		
-		
+		System.out.println(this.getLigado());
+		System.out.println(this.getVolume());
+		for(int i = 0; i <= this.getVolume(); i += 1) {
+			
+			System.out.println("|");
+			System.out.println(this.getTocando());
+		}
 	}
 
 	@Override
