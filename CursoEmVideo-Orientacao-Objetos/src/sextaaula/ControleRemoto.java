@@ -127,6 +127,10 @@ public class ControleRemoto implements Controlador{
 		if((this.getLigado()) && !this.getTocando()) {
 			
 			this.setTocando(true);
+			
+		}else {
+			
+			System.out.println("Não consegui reproduzir");
 		}
 		
 	}
