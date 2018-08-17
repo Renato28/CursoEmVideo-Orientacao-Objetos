@@ -141,6 +141,10 @@ public class ControleRemoto implements Controlador{
 		if((this.getTocando()) && this.getTocando()){
 			
 			this.setTocando(false);
+			
+		}else {
+			
+			System.out.println("Não consegui pausar");
 		}
 	}
 	
