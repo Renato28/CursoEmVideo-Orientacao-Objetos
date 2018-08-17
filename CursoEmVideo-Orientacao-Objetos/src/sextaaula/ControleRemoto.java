@@ -128,7 +128,7 @@ public class ControleRemoto implements Controlador {
 	@Override
 	public void play() {
 
-		if ((this.getLigado()) && !this.getTocando()) {
+		if ((this.getLigado()) && (!this.getTocando())) {
 
 			this.setTocando(true);
 
