@@ -119,7 +119,7 @@ public class ControleRemoto implements Controlador {
 	@Override
 	public void desligarMudo() {
 
-		if ((this.getLigado()) && this.getVolume() == 0) {
+		if (this.getLigado() && this.getVolume() == 0) {
 
 			this.setVolume(50);
 		}
