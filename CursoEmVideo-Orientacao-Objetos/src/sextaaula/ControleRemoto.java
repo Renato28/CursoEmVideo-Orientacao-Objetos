@@ -74,7 +74,7 @@ public class ControleRemoto implements Controlador{
 	@Override
 	public void fecharMenu() {
 		
-		
+		System.out.println("Fechando Menu...");
 	}
 
 	@Override
