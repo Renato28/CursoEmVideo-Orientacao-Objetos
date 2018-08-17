@@ -96,6 +96,10 @@ public class ControleRemoto implements Controlador{
 		if(this.getLigado()) {
 			
 			this.setVolume(this.getVolume() -1);
+			
+		}else {
+			
+			System.out.println("Impossivel diminuir volume");
 		}
 	}
 
