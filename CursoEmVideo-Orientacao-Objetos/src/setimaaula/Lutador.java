@@ -115,23 +115,23 @@ public class Lutador {
 		
 		if (this.peso < 52.2) {
 
-			categoria = "Invalido";
+			this.categoria = "Invalido";
 			
 		} else if (this.peso <= 70.3) {
 
-			categoria = "Leve";
+			this.categoria = "Leve";
 			
 		} else if (this.peso <= 83.9) {
 
-			categoria = "Médio";
+			this.categoria = "Médio";
 			
 		} else if (this.peso <= 120.2) {
 
-			categoria = "Pesado";
+			this.categoria = "Pesado";
 		}
 		else {
 			
-			categoria = "Invalido";
+			this.categoria = "Invalido";
 		}
 	}
 
