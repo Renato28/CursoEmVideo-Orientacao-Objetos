@@ -19,10 +19,7 @@ public class Luta extends Lutador {
 
 	public void marcarLuta(Lutador lutador1, Lutador lutador2) {
 		
-		if (lutador1.getCategoria().equals(lutador2.getCategoria() && (this.lutador1.getNome() != this.lutador2.getNome())) {
-			
-			
-		}
+		
 	}
 
 	public void lutar() {
