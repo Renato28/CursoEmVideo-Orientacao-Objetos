@@ -11,4 +11,11 @@ public class Lutador {
 	private int vitorias;
 	private int derrotas;
 	private int empates;
+	
+	public Lutador() {
+		
+		
+	}
+	
+	
 }
