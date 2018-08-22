@@ -1,5 +1,7 @@
 package setimaaula;
 
+import java.util.Random;
+
 public class Luta extends Lutador {
 
 	public Luta(String nome, String nacionalidade, int idade, double altura, double peso, int vitorias, int derrotas,
@@ -33,7 +35,37 @@ public class Luta extends Lutador {
 	}
 
 	public void lutar() {
-
+		
+		if(this.isAprovada()) {
+			
+			this.desafiado.apresentar();
+			this.desafiante.apresentar();
+			
+			Random aleatorio = new Random();
+			int vencedor = aleatorio.nextInt(3); // 0 1 2
+			
+			switch (vencedor) {
+			
+			case 0: //Empate
+				System.out.println("Empatou!");
+				desafiado.empatarLuta();
+				desafiante.empatarLuta();
+				break;
+			case 1: //Ganhou Desafiado
+				System.out.println("Vitoria do " + desafiado.getNome());
+				desafiado.ganharLuta();
+				desafiante.perderLuta();
+				break;
+			case 2: //Ganhou Desafiante
+				System.out.println("Vitoria do " + desafiante.getNome());
+				desafiante.ganharLuta();
+				desafiado.perderLuta();
+				break;
+			default:
+				System.out.println("Luta não pode acontecer!");
+				break;
+			}
+		}
 	}
 
 	public Lutador getDesafiado() {
