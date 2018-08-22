@@ -111,7 +111,7 @@ public class Lutador {
 		return categoria;
 	}
 
-	public void setCategoria(String categoria) {
+	public void setCategoria() {
 		
 		if (this.peso < 52.2) {
 
