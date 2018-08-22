@@ -128,6 +128,10 @@ public class Lutador {
 
 			categoria = "Pesado";
 		}
+		else {
+			
+			categoria = "Invalido";
+		}
 	}
 
 	public int getVitorias() {
