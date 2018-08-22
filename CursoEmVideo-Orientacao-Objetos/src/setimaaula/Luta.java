@@ -16,12 +16,12 @@ public class Luta {
 	public void marcarLuta(Lutador lutador1, Lutador lutador2) {
 
 		if (lutador1.getCategoria().equals(lutador2.getCategoria()) && (lutador1 != lutador2)) {
-			
+
 			this.aprovada = true;
 			this.desafiado = lutador1;
 			this.desafiante = lutador2;
-		}else {
-			
+		} else {
+
 			this.aprovada = false;
 			this.desafiado = null;
 			this.desafiante = null;
@@ -29,36 +29,39 @@ public class Luta {
 	}
 
 	public void lutar() {
-		
-		if(this.isAprovada()) {
-			
+
+		if (this.isAprovada()) {
+
 			this.desafiado.apresentar();
 			this.desafiante.apresentar();
-			
+
 			Random aleatorio = new Random();
 			int vencedor = aleatorio.nextInt(3); // 0 1 2
-			
+			System.out.println("########## RESULTADO DA LUTA ###########");
 			switch (vencedor) {
-			
-			case 0: //Empate
+
+			case 0: // Empate
 				System.out.println("Empatou!");
 				desafiado.empatarLuta();
 				desafiante.empatarLuta();
 				break;
-			case 1: //Ganhou Desafiado
+			case 1: // Ganhou Desafiado
+				System.out.println("######### DESAFIADO #########");
 				System.out.println("Vitoria do " + desafiado.getNome());
 				desafiado.ganharLuta();
 				desafiante.perderLuta();
 				break;
-			case 2: //Ganhou Desafiante
+			case 2: // Ganhou Desafiante
+				System.out.println("######### DESAFIANTE ########");
 				System.out.println("Vitoria do " + desafiante.getNome());
 				desafiante.ganharLuta();
 				desafiado.perderLuta();
 				break;
-			default:
-				System.out.println("Luta não pode acontecer!");
-				break;
 			}
+			System.out.println("#################################");
+		} else {
+
+			System.out.println("Luta não pode acontecer!");
 		}
 	}
 
