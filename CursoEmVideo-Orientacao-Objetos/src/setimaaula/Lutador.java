@@ -30,7 +30,16 @@ public class Lutador {
 	}
 
 	public void status() {
-
+		
+		System.out.println("Lutador: " + this.getNome() +
+							"Nacionalidade: " + this.getNacionalidade() +
+							"Idade: " + this.getIdade() +
+							"Altura: " + this.getAltura() +
+							"Peso: " + this.getPeso() +
+							"Categoria " + this.getCategoria() +
+							"Vitorias: " + this.getVitorias() + 
+							"Derrotas: " + this.getDerrotas() + 
+							"Empates: " + this.getEmpates());
 	}
 
 	public void ganharLuta() {
