@@ -4,7 +4,7 @@ public class Aula07 {
 
 	public static void main(String[] args) {
 		
-		Lutador lutador[] = new Lutador[5];
+		Lutador lutador[] = new Lutador[6];
 		
 		lutador[0] = new Lutador("Pretty Boy", "França", 31, 1.75, 68.9, 11, 2, 1);
 		lutador[1] = new Lutador("Putscript", "Brasil", 29, 1.68, 57.8, 14, 2, 3);
