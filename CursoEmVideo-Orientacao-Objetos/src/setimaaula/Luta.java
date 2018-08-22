@@ -1,6 +1,12 @@
 package setimaaula;
 
-public class Luta {
+public class Luta extends Lutador{
+
+	public Luta(String nome, String nacionalidade, int idade, double altura, double peso, int vitorias, int derrotas,
+			int empates) {
+		super(nome, nacionalidade, idade, altura, peso, vitorias, derrotas, empates);
+		
+	}
 
 	//atributos
 	
@@ -9,20 +15,10 @@ public class Luta {
 	private int rounds;
 	private boolean aprovada;
 	
-	//Metodo construtor
-	
-	public Luta(String desafiado, String desafiante, int rounds) {
-		
-		this.desafiado = desafiado;
-		this.desafiante = desafiante;
-		this.rounds = rounds;
-	}
-	
 	//Metodos
 	
 	public void marcarLuta() {
-		
-		
+			
 	}
 	
 	public void lutar() {

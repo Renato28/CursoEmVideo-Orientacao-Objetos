@@ -4,15 +4,15 @@ public class Lutador {
 
 	// Atributos
 
-	private String nome;
-	private String nacionalidade;
-	private int idade;
-	private double altura;
-	private double peso;
-	private String categoria;
-	private int vitorias;
-	private int derrotas;
-	private int empates;
+	protected String nome;
+	protected String nacionalidade;
+	protected int idade;
+	protected double altura;
+	protected double peso;
+	protected String categoria;
+	protected int vitorias;
+	protected int derrotas;
+	protected int empates;
 
 	// Metodo construtor
 
