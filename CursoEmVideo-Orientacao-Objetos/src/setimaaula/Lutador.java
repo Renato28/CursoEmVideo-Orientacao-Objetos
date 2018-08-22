@@ -15,6 +15,7 @@ public class Lutador {
 	private int empates;
 
 	// Metodo construtor
+	
 	public Lutador(String nome, String nacionalidade, int idade, double altura, double peso, int vitorias, int derrotas, int empates) {
 		
 		this.nome = nome;
@@ -105,6 +106,7 @@ public class Lutador {
 
 	public void setPeso(double peso) {
 		this.peso = peso;
+		this.setCategoria(categoria);
 	}
 
 	public String getCategoria() {
