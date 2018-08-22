@@ -18,5 +18,16 @@ public class Luta {
 		this.rounds = rounds;
 	}
 	
+	//Metodos
+	
+	public void marcarLuta() {
+		
+		
+	}
+	
+	public void lutar() {
+		
+		
+	}
 	
 }
