@@ -14,7 +14,7 @@ public class Aula07 {
 		lutador[5] = new Lutador("Nerdaard", "EUA", 30, 1.81, 105.7, 12, 3, 2);
 		
 		Luta UEC01 = new Luta();
-		UEC01.marcarLuta(lutador[1], lutador[1]);
+		UEC01.marcarLuta(lutador[1], lutador[5]);
 		UEC01.lutar();
 		
 	}
