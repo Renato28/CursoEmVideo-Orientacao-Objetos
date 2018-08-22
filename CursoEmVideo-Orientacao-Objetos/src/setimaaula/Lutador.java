@@ -53,7 +53,8 @@ public class Lutador {
 	}
 
 	public void empatarLuta() {
-
+		
+		this.setEmpates(this.getEmpates() + 1);
 	}
 
 	// Metodos Getters e Setters
