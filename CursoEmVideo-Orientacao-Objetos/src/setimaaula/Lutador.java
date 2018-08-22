@@ -13,8 +13,8 @@ public class Lutador {
 	private int vitorias;
 	private int derrotas;
 	private int empates;
-	
-	//Metodo construtor
+
+	// Metodo construtor
 	public Lutador() {
 
 	}
@@ -23,6 +23,10 @@ public class Lutador {
 
 	public void apresentar() {
 
+		System.out.println("Senhoras e Senhores, queremos apresentar o lutador " + this.getNome() + " ele veio do "
+				+ this.getNacionalidade() + " tem " + this.getIdade() + " anos " + " " + this.getAltura() + " m  de altura "
+				+ " pesa " + this.getPeso() + " kg " + " sua categoria é: " + this.getCategoria() + " tem " + this.getVitorias()
+				+ " vitórias " + " " + this.getDerrotas() + " derrotas " + " e " + this.getEmpates() + " empates ");
 	}
 
 	public void status() {
@@ -41,7 +45,7 @@ public class Lutador {
 
 	}
 
-	//Metodos Getters e Setters
+	// Metodos Getters e Setters
 
 	public String getNome() {
 		return nome;
