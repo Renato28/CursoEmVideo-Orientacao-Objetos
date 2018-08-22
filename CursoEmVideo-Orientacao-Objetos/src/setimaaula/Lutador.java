@@ -33,11 +33,14 @@ public class Lutador {
 
 	public void apresentar() {
 
-		System.out.println("Senhoras e Senhores, queremos apresentar o lutador " + this.getNome() + " ele veio do "
-				+ this.getNacionalidade() + " tem " + this.getIdade() + " anos " + " " + this.getAltura()
-				+ " m  de altura " + " pesa " + this.getPeso() + " kg " + " sua categoria é: " + this.getCategoria()
-				+ " tem " + this.getVitorias() + " vitórias " + " " + this.getDerrotas() + " derrotas " + " e "
-				+ this.getEmpates() + " empates ");
+		System.out.println("CHEGOU A HORA! o lutador " + this.getNome());
+		System.out.println("veio diretamente de " + this.getNacionalidade());
+		System.out.println("tem " + this.getIdade() + " e " + this.getAltura() + " m");
+		System.out.println("pesando " + this.getPeso() + " Kg");
+		System.out.println(this.getVitorias() + " vitórias");
+		System.out.println(this.getDerrotas() + " derrotas e ");
+		System.out.println(this.getEmpates() + " empates");
+			
 	}
 
 	public void status() {
