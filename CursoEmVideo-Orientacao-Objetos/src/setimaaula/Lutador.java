@@ -42,10 +42,11 @@ public class Lutador {
 
 	public void status() {
 
-		System.out.println("Lutador: " + this.getNome() + "Nacionalidade: " + this.getNacionalidade() + "Idade: "
-				+ this.getIdade() + "Altura: " + this.getAltura() + "Peso: " + this.getPeso() + "Categoria "
-				+ this.getCategoria() + "Vitorias: " + this.getVitorias() + "Derrotas: " + this.getDerrotas()
-				+ "Empates: " + this.getEmpates());
+		System.out.println("Nome: " + this.getNome());
+		System.out.println("Peso: " + this.getPeso() + " kg");
+		System.out.println("Vitórias: " + this.getVitorias());
+		System.out.println("Derrotas: " + this.getDerrotas());
+		System.out.println("Empates: " + this.getEmpates());
 	}
 
 	public void ganharLuta() {
