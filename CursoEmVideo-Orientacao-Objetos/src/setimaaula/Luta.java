@@ -37,7 +37,7 @@ public class Luta {
 
 			Random aleatorio = new Random();
 			int vencedor = aleatorio.nextInt(3); // 0 1 2
-			System.out.println("########## RESULTADO DA LUTA ###########" + vencedor);
+			System.out.println("########## RESULTADO DA LUTA ###########");
 			switch (vencedor) {
 
 			case 0: // Empate
