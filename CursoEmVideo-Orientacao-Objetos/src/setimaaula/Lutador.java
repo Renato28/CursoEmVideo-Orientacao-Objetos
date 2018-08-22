@@ -2,6 +2,8 @@ package setimaaula;
 
 public class Lutador {
 
+	// Atributos
+
 	private String nome;
 	private String nacionalidade;
 	private int idade;
@@ -11,6 +13,28 @@ public class Lutador {
 	private int vitorias;
 	private int derrotas;
 	private int empates;
+
+	// Metodos
+
+	public void apresentar() {
+
+	}
+
+	public void status() {
+
+	}
+
+	public void ganharLuta() {
+
+	}
+
+	public void perderLuta() {
+
+	}
+
+	public void empatarLuta() {
+
+	}
 
 	public Lutador() {
 
