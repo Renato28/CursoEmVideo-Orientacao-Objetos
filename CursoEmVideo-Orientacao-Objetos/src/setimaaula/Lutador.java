@@ -13,6 +13,11 @@ public class Lutador {
 	private int vitorias;
 	private int derrotas;
 	private int empates;
+	
+	//Metodo construtor
+	public Lutador() {
+
+	}
 
 	// Metodos
 
@@ -36,9 +41,7 @@ public class Lutador {
 
 	}
 
-	public Lutador() {
-
-	}
+	//Metodos Getters e Setters
 
 	public String getNome() {
 		return nome;
