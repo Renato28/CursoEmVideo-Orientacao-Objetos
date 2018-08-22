@@ -18,8 +18,18 @@ public class Luta extends Lutador {
 	// Metodos
 
 	public void marcarLuta(Lutador lutador1, Lutador lutador2) {
-		
-		
+
+		if (lutador1.getCategoria().equals(lutador2.getCategoria()) && (lutador1.getNome() != lutador2.getNome())) {
+			
+			this.aprovada = true;
+			this.desafiado = lutador1;
+			this.desafiante = lutador2;
+		}else {
+			
+			this.aprovada = false;
+			this.desafiado = null;
+			this.desafiante = null;
+		}
 	}
 
 	public void lutar() {
@@ -57,7 +67,5 @@ public class Luta extends Lutador {
 	public void setAprovada(boolean aprovada) {
 		this.aprovada = aprovada;
 	}
-	
-	
 
 }
