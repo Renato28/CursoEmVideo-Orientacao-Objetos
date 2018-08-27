@@ -6,4 +6,9 @@ public class Pessoa {
 	private int idade;
 	private char sexo;
 	
+	public void fazerAniver() {
+		
+		
+	}
+	
 }
