@@ -24,8 +24,8 @@ public class Livro implements Publicacao {
 				+ autor + "\n, totPaginas=" + totPaginas
 				+ "\n, pagAtual=" + pagAtual + "\n, aberto=" 
 				+ aberto + "\n, leitor=" + leitor.getNome() +
-				"\n, leitor=" + leitor.getIdade() +
-				"\n, leitor=" + leitor.getSexo() + "]";
+				"\n, idade=" + leitor.getIdade() +
+				"\n, sexo=" + leitor.getSexo() + "]";
 	}
 
 	public void setTitulo(String titulo) {
