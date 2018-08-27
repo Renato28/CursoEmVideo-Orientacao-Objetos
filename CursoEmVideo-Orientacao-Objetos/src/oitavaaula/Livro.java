@@ -116,6 +116,7 @@ public class Livro implements Publicacao {
 
 	@Override
 	public void avancarPag() {
-
+		
+		this.setPagAtual(this.getPagAtual() + 1);
 	}
 }
