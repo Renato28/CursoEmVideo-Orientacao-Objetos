@@ -23,7 +23,9 @@ public class Livro implements Publicacao {
 		return "Livro [titulo=" + titulo + "\n, autor=" 
 				+ autor + "\n, totPaginas=" + totPaginas
 				+ "\n, pagAtual=" + pagAtual + "\n, aberto=" 
-				+ aberto + "\n, leitor=" + leitor + "]";
+				+ aberto + "\n, leitor=" + leitor.getNome() +
+				"\n, leitor=" + leitor.getIdade() +
+				"\n, leitor=" + leitor.getSexo() + "]";
 	}
 
 	public void setTitulo(String titulo) {
