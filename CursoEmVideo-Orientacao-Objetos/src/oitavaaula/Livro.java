@@ -8,4 +8,9 @@ public class Livro {
 	private int pagAtual;
 	private boolean aberto;
 	private Pessoa leitor;
+	
+	public void detalhes() {
+		
+		
+	}
 }
