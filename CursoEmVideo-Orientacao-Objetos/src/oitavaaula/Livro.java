@@ -19,8 +19,11 @@ public class Livro implements Publicacao {
 		this.leitor = leitor;
 	}
 
-	public void detalhes() {
-
+	public String detalhes() {
+		return "Livro [titulo=" + titulo + ", autor=" 
+				+ autor + ", totPaginas=" + totPaginas
+				+ ", pagAtual=" + pagAtual + ", aberto=" 
+				+ aberto + ", leitor=" + leitor + "]";
 	}
 
 	public void setTitulo(String titulo) {
@@ -116,7 +119,7 @@ public class Livro implements Publicacao {
 
 	@Override
 	public void avancarPag() {
-		
+
 		this.setPagAtual(this.getPagAtual() + 1);
 	}
 }
