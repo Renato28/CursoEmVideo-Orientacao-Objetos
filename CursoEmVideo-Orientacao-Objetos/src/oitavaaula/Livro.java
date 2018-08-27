@@ -9,6 +9,16 @@ public class Livro implements Publicacao {
 	private boolean aberto;
 	private Pessoa leitor;
 
+	public Livro(String titulo, String autor, int totPaginas, Pessoa leitor) {
+
+		this.titulo = titulo;
+		this.autor = autor;
+		this.totPaginas = totPaginas;
+		this.pagAtual = 0;
+		this.aberto = false;
+		this.leitor = leitor;
+	}
+
 	public void detalhes() {
 
 	}
@@ -75,31 +85,26 @@ public class Livro implements Publicacao {
 
 	@Override
 	public void abrir() {
-		
-		
+
 	}
 
 	@Override
 	public void fechar() {
-		
-		
+
 	}
 
 	@Override
 	public void folhear() {
-		
-		
+
 	}
 
 	@Override
 	public void voltarPag() {
-		
-		
+
 	}
 
 	@Override
 	public void avancarPag() {
-		
-		
+
 	}
 }
