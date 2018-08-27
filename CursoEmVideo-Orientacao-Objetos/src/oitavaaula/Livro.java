@@ -91,13 +91,21 @@ public class Livro implements Publicacao {
 
 	@Override
 	public void fechar() {
-		
+
 		this.aberto = false;
 	}
 
 	@Override
-	public void folhear() {
+	public void folhear(int pagina) {
 
+		if (pagina > this.totPaginas) {
+
+			this.pagAtual = 0;
+
+		} else {
+
+			this.pagAtual = pagina;
+		}
 	}
 
 	@Override
