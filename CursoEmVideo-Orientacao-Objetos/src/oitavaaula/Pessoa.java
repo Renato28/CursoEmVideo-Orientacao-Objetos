@@ -14,7 +14,8 @@ public class Pessoa {
 	}
 
 	public void fazerAniver() {
-
+		
+		this.setIdade(this.getIdade() + 1);
 	}
 
 	public void setNome(String nome) {
