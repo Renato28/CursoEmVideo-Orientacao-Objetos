@@ -111,6 +111,7 @@ public class Livro implements Publicacao {
 	@Override
 	public void voltarPag() {
 
+		this.setPagAtual(this.getPagAtual() - 1);
 	}
 
 	@Override
