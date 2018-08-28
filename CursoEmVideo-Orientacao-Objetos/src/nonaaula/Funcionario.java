@@ -5,9 +5,17 @@ package nonaaula;
  * @author Renato Nobrega
  *
  */
-public class Funcionario {
+public class Funcionario extends Pessoa{
 
 	// atributos
+	
+	//metodo construtor
+	
+	public Funcionario(String nome, int idade, String sexo) {
+		
+		super(nome, idade, sexo);
+		
+	}
 
 	private String setor;
 	private boolean trabalhando;
