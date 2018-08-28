@@ -5,21 +5,29 @@ package nonaaula;
  * @author Renato Nobrega
  *
  */
-public class Professor  {
+public class Professor extends Pessoa {
+
+	// atributos
 	
-	//atributos
+	//metodo construtor
 	
+	public Professor(String nome, int idade, String sexo) {
+		
+		super(nome, idade, sexo);
+
+	}
+
 	private String especialidade;
 	private double salario;
-	
-	//metodos
-	
+
+	// metodos
+
 	public void receberAumento() {
 
 	}
-	
+
 	// metodos getters e setters
-	
+
 	public String getEspecialidade() {
 		return especialidade;
 	}
