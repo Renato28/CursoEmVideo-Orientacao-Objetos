@@ -25,7 +25,8 @@ public class Pessoa {
 	// metodos
 	
 	public void fazerAniversario() {
-
+		
+		this.setIdade(this.getIdade() + 1);
 	}
 	
 	//metodos getter e setters
