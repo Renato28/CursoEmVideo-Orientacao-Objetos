@@ -5,6 +5,12 @@ public class Aluno {
 	private int matricula;
 	private String curso;
 
+	public Aluno(int matricula, String curso) {
+
+		this.matricula = matricula;
+		this.curso = curso;
+	}
+
 	public int getMatricula() {
 		return matricula;
 	}
