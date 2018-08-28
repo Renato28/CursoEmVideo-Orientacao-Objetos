@@ -5,9 +5,17 @@ package nonaaula;
  * @author Renato Nobrega
  *
  */
-public class Aluno {
+public class Aluno extends Pessoa {
 
 	// atributos
+	
+	//metodo construtor
+	
+	public Aluno(String nome, int idade, String sexo) {
+
+		super(nome, idade, sexo);
+
+	}
 
 	private int matricula;
 	private String curso;
