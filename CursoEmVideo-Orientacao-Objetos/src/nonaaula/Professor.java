@@ -5,6 +5,12 @@ public class Professor {
 	private String especialidade;
 	private double salario;
 
+	public Professor(String especialidade, double salario) {
+
+		this.especialidade = especialidade;
+		this.salario = salario;
+	}
+
 	public String getEspecialidade() {
 		return especialidade;
 	}
