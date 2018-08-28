@@ -1,21 +1,34 @@
 package nonaaula;
 
+/**
+ * 
+ * @author Renato Nobrega
+ *
+ */
 public class Pessoa {
 
+	// atributos
+	
 	private String nome;
 	private int idade;
 	private String sexo;
-
+	
+	//metodo construtor
+	
 	public Pessoa(String nome, int idade, String sexo) {
 
 		this.nome = nome;
 		this.idade = idade;
 		this.sexo = sexo;
 	}
-
+	
+	// metodos
+	
 	public void fazerAniversario() {
 
 	}
+	
+	//metodos getter e setters
 
 	public String getNome() {
 		return nome;
