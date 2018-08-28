@@ -16,7 +16,7 @@ public class Pessoa {
 	//metodo construtor
 	
 	public Pessoa(String nome, int idade, String sexo) {
-
+		super();
 		this.nome = nome;
 		this.idade = idade;
 		this.sexo = sexo;
