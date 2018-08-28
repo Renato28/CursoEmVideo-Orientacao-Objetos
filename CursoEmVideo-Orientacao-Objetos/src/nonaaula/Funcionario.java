@@ -4,6 +4,14 @@ public class Funcionario {
 
 	private String setor;
 	private boolean trabalhando;
+	
+	
+
+	public Funcionario(String setor) {
+		
+		this.setor = setor;
+		this.trabalhando = false;
+	}
 
 	public String getSetor() {
 		return setor;
