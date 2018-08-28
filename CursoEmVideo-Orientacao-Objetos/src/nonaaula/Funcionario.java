@@ -6,28 +6,20 @@ package nonaaula;
  *
  */
 public class Funcionario {
-	
-	//atributos
-	
+
+	// atributos
+
 	private String setor;
 	private boolean trabalhando;
-	
-	//metodo construtor
-	
-	public Funcionario(String setor) {
 
-		this.setor = setor;
-		this.trabalhando = false;
-	}
-	
-	//metodos
-	
+	// metodos
+
 	public void mudarTrabalho() {
 
 	}
-	
-	//metodos getters e setters
-	
+
+	// metodos getters e setters
+
 	public String getSetor() {
 		return setor;
 	}
