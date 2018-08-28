@@ -6,28 +6,20 @@ package nonaaula;
  *
  */
 public class Aluno {
-	
-	//atributos
-	
+
+	// atributos
+
 	private int matricula;
 	private String curso;
-	
-	//metodo construtor
-	
-	public Aluno(int matricula, String curso) {
 
-		this.matricula = matricula;
-		this.curso = curso;
-	}
-	
-	//metodos
-	
+	// metodos
+
 	public void cancelarMatricula() {
 
 	}
-	
-	//metodos getters e setters
-	
+
+	// metodos getters e setters
+
 	public int getMatricula() {
 		return matricula;
 	}
