@@ -11,6 +11,10 @@ public class Aluno {
 		this.curso = curso;
 	}
 
+	public void cancelarMatricula() {
+
+	}
+
 	public int getMatricula() {
 		return matricula;
 	}
