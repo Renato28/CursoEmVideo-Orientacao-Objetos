@@ -12,6 +12,11 @@ public class Funcionario {
 		this.setor = setor;
 		this.trabalhando = false;
 	}
+	
+	public void mudarTrabalho() {
+		
+		
+	}
 
 	public String getSetor() {
 		return setor;
