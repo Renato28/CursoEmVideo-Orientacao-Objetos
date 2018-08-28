@@ -11,6 +11,10 @@ public class Professor {
 		this.salario = salario;
 	}
 
+	public void receberAumento() {
+
+	}
+
 	public String getEspecialidade() {
 		return especialidade;
 	}
