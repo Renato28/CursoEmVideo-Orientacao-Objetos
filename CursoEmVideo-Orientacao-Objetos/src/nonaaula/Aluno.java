@@ -45,11 +45,13 @@ public class Aluno extends Pessoa {
 		this.curso = curso;
 	}
 
-	@Override
+	//codigo comentado
+	
+	/*@Override
 	public String toString() {
 		
 		return "Aluno [matricula=" + matricula + ", curso=" + curso + "]";
-	}
+	}*/
 	
 	
 
