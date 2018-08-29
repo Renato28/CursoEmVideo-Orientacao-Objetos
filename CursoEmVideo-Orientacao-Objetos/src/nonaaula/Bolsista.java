@@ -13,7 +13,7 @@ public class Bolsista extends Aluno {
 	
 	public void renovarBolsa() {
 		
-		
+		System.out.println("Bolsa do aluno " + this.nome + " renovada com sucesso!");
 	}
 	
 	@Override
