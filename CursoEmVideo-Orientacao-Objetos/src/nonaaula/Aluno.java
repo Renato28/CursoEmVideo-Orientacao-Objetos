@@ -23,7 +23,8 @@ public class Aluno extends Pessoa {
 	// metodos
 
 	public void cancelarMatricula() {
-
+		
+		System.out.println("Matricula cancelada com sucesso!");
 	}
 
 	// metodos getters e setters
