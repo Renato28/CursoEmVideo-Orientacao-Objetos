@@ -30,5 +30,24 @@ public class Bolsista extends Aluno {
 		this.bolsa = bolsa;
 	}
 	
+	//implementando o metodo toString com o StringBuffer
+	
+	@Override
+	public String toString() {
+		
+		StringBuffer stringBuffer = new StringBuffer();
+		stringBuffer.append("Bolsista: ");
+		stringBuffer.append(" Nome: ");
+		stringBuffer.append(this.getNome());
+		stringBuffer.append(", Idade: ");
+		stringBuffer.append(this.getIdade());
+		stringBuffer.append(", Sexo: ");
+		stringBuffer.append(this.getSexo());
+		
+		return stringBuffer.toString();
+	}
+	
+	
+	
 	
 }
