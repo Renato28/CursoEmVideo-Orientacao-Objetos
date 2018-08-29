@@ -12,9 +12,9 @@ public abstract class Pessoa {
 
 	// atributos
 	
-	private String nome;
-	private int idade;
-	private String sexo;
+	protected String nome;
+	protected int idade;
+	protected String sexo;
 	
 	//codigo comentado
 	
