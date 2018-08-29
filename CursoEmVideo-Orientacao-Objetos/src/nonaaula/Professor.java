@@ -50,6 +50,8 @@ public class Professor extends Pessoa {
 	@Override
 	public String toString() {
 		
+		//implementando o metodo toString com o StringBuffer
+		
 		StringBuffer stringBuffer = new StringBuffer();
 		stringBuffer.append(" Professor: ");
 		stringBuffer.append(" Nome: ");
