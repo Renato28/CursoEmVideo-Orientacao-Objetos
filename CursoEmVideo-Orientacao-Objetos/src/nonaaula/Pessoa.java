@@ -27,7 +27,7 @@ public abstract class Pessoa {
 	
 	// metodos
 	
-	public void fazerAniversario() {
+	public final void fazerAniversario() {
 		
 		this.setIdade(this.getIdade() + 1);
 	}
