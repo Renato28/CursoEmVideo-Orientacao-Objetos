@@ -35,13 +35,9 @@ public class ProgramaPrincipal {
 		professor.setSexo("M");
 		professor.setEspecialidade("Java");
 		professor.setSalario(2500);
-		
+		professor.receberAumento(200);
 		System.out.println(professor);
 		
-		pessoa.fazerAniversario();
-		aluno.cancelarMatricula();
-		funcionario.mudarTrabalho();
-		professor.receberAumento(200);
 	}
 
 }
