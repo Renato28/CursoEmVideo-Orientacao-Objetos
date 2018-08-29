@@ -45,12 +45,14 @@ public class Funcionario extends Pessoa{
 	public void setTrabalhando(boolean trabalhando) {
 		this.trabalhando = trabalhando;
 	}
-
-	@Override
+	
+	//codigo comentado
+	
+	/*@Override
 	public String toString() {
 		
 		return "Funcionario [setor=" + setor + ", trabalhando=" + trabalhando + "]";
-	}
+	}*/
 
 	
 }
