@@ -87,6 +87,10 @@ public class ProgramaPrincipal {
 		visitante.setIdade(25);
 		visitante.setSexo("M");
 		
+		//executando o metodo da classe Visitante
+		
+		visitante.fazerAniversario();
+		
 	}
 
 }
