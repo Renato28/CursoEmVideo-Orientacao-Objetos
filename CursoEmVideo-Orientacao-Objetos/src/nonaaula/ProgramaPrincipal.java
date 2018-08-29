@@ -95,6 +95,15 @@ public class ProgramaPrincipal {
 		
 		System.out.println(visitante);
 		
+		//criando um objeto da classe Bolsista e atribuindo valores aos seus atributos
+		
+		Bolsista bolsista = new Bolsista();
+		bolsista.setNome("Pedro");
+		bolsista.setIdade(18);
+		bolsista.setSexo("M");
+		bolsista.setMatricula(456);
+		bolsista.setBolsa("Informatica");
+		
 	}
 
 }
