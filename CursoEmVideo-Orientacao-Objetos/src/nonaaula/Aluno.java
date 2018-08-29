@@ -21,7 +21,7 @@ public class Aluno extends Pessoa {
 	
 	public void pagarMensalidade() {
 		
-		
+		System.out.println("Mensalidade do aluno " + this.nome + " paga com sucesso!");
 	}
 
 	// metodos getters e setters
