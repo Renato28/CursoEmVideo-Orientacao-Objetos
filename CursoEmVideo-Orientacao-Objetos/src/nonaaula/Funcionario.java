@@ -9,16 +9,17 @@ public class Funcionario extends Pessoa{
 
 	// atributos
 	
-	//metodo construtor
+	private String setor;
+	private boolean trabalhando;
 	
-	public Funcionario(String nome, int idade, String sexo) {
+	//codigo comentado
+	
+	/*public Funcionario(String nome, int idade, String sexo) {
 		
 		super(nome, idade, sexo);
 		
-	}
+	}*/
 
-	private String setor;
-	private boolean trabalhando;
 
 	// metodos
 
