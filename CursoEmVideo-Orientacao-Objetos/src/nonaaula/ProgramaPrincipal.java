@@ -11,7 +11,9 @@ public class ProgramaPrincipal {
 		
 		//criando um objeto da classe Pessoa e atribuindo valores aos seus atributos
 		
-		Pessoa pessoa = new Pessoa();
+		//codigo comentado
+		
+		/*Pessoa pessoa = new Pessoa();
 		pessoa.setNome("Renato");
 		pessoa.setIdade(30);
 		pessoa.setSexo("M");
@@ -22,7 +24,7 @@ public class ProgramaPrincipal {
 		
 		//executando os valores dos atributos e metodos da classe Pessoa
 		
-		System.out.println(pessoa);
+		System.out.println(pessoa);*/
 		
 		//criando um objeto da classe Aluno e atribuindo valores aos seus atributos
 		
