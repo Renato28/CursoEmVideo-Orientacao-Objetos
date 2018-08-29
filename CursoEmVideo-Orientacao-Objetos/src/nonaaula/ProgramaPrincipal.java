@@ -27,6 +27,7 @@ public class ProgramaPrincipal {
 		funcionario.setSexo("F");
 		funcionario.setSetor("Secretaria");
 		funcionario.setTrabalhando(true);
+		funcionario.fazerAniversario();
 		funcionario.mudarTrabalho();
 		System.out.println(funcionario);
 		
