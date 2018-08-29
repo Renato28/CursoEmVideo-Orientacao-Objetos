@@ -114,6 +114,15 @@ public class ProgramaPrincipal {
 		
 		System.out.println(bolsista);
 		
+		//criando um objeto da classe Tecnico e atribuindo valores aos seus atributos
+		
+		Tecnico tecnico = new Tecnico();
+		tecnico.setNome("Daniel");
+		tecnico.setIdade(26);
+		tecnico.setSexo("M");
+		tecnico.setMatricula(567);
+		tecnico.setRegistroProfissional(true);
+		
 	}
 
 }
