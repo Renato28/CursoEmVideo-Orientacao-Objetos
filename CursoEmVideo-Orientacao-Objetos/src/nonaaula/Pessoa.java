@@ -58,6 +58,8 @@ public class Pessoa {
 	@Override
 	public String toString() {
 		
+		//implementando o metodo toString com o StringBuffer
+		
 		StringBuffer stringBuffer = new StringBuffer();
 		stringBuffer.append("Pessoa:");
 		stringBuffer.append("Nome: ");
