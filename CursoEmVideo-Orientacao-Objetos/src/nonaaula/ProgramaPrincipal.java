@@ -37,6 +37,11 @@ public class ProgramaPrincipal {
 		professor.setSalario(2500);
 		
 		System.out.println(professor);
+		
+		pessoa.fazerAniversario();
+		aluno.cancelarMatricula();
+		funcionario.mudarTrabalho();
+		professor.receberAumento(200);
 	}
 
 }
