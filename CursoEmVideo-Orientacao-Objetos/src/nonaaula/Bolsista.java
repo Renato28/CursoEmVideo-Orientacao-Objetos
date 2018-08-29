@@ -19,7 +19,7 @@ public class Bolsista extends Aluno {
 	@Override
 	public void pagarMensalidade() {
 		
-		
+		System.out.println(this.nome + " é um aluno bolsista, pagamento diferenciado!");
 	}
 	
 	
