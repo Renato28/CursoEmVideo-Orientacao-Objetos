@@ -26,7 +26,7 @@ public class ProgramaPrincipal {
 		funcionario.setSexo("F");
 		funcionario.setSetor("Secretaria");
 		funcionario.setTrabalhando(true);
-		
+		funcionario.mudarTrabalho();
 		System.out.println(funcionario);
 		
 		Professor professor = new Professor();
