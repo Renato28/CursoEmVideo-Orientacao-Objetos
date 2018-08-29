@@ -45,13 +45,25 @@ public class Aluno extends Pessoa {
 		this.curso = curso;
 	}
 
-	//codigo comentado
 	
-	/*@Override
+	
+	@Override
 	public String toString() {
 		
-		return "Aluno [matricula=" + matricula + ", curso=" + curso + "]";
-	}*/
+		StringBuffer stringBuffer = new StringBuffer();
+		stringBuffer.append("Nome: ");
+		stringBuffer.append(this.getNome());
+		stringBuffer.append(", Idade: ");
+		stringBuffer.append(this.getIdade());
+		stringBuffer.append(", Sexo: ");
+		stringBuffer.append(this.getSexo());
+		stringBuffer.append(", Matricula: ");
+		stringBuffer.append(this.getMatricula());
+		stringBuffer.append(", Curso: ");
+		stringBuffer.append(this.getCurso());
+		
+		return stringBuffer.toString();
+	}
 	
 	
 
