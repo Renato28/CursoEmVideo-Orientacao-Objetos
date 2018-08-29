@@ -13,14 +13,14 @@ public class Pessoa {
 	private int idade;
 	private String sexo;
 	
-	//metodo construtor
+	//codigo comentado
 	
-	public Pessoa(String nome, int idade, String sexo) {
+	/*public Pessoa(String nome, int idade, String sexo) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
 		this.sexo = sexo;
-	}
+	}*/
 	
 	// metodos
 	
