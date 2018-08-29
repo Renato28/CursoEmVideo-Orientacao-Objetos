@@ -10,6 +10,13 @@ public class ProgramaPrincipal {
 		Aluno p2 = new Aluno("Andriel", 14, "M");
 		Professor p3 = new Professor("Rodrigo", 35, "M");
 		Funcionario p4 = new Funcionario("Maria", 32, "F");
+		
+		//exectando os metodos das classes
+		
+		p1.fazerAniversario();
+		p2.cancelarMatricula();
+		p3.receberAumento();
+		p4.mudarTrabalho();
 	}
 
 }
