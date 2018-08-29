@@ -110,6 +110,10 @@ public class ProgramaPrincipal {
 		bolsista.pagarMensalidade(500);
 		bolsista.fazerAniversario();
 		
+		//executando os valores dos atributos e metodos da classe Bolsista
+		
+		System.out.println(bolsista);
+		
 	}
 
 }
