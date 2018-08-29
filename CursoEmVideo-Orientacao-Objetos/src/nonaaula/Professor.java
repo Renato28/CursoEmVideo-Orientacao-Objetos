@@ -45,13 +45,25 @@ public class Professor extends Pessoa {
 		this.salario = salario;
 	}
 	
-	//codigo comentado
+
 	
-	/*@Override
+	@Override
 	public String toString() {
 		
-		return "Professor [especialidade=" + especialidade + ", salario=" + salario + "]";
-	}*/
+		StringBuffer stringBuffer = new StringBuffer();
+		stringBuffer.append("Nome: ");
+		stringBuffer.append(this.getNome());
+		stringBuffer.append(", Idade: ");
+		stringBuffer.append(this.getIdade());
+		stringBuffer.append(", Sexo: ");
+		stringBuffer.append(this.getSexo());
+		stringBuffer.append(", Especialidade: ");
+		stringBuffer.append(this.getEspecialidade());
+		stringBuffer.append(", Salario: ");
+		stringBuffer.append(this.getSalario());
+		
+		return stringBuffer.toString();
+	}
 	
 	
 
