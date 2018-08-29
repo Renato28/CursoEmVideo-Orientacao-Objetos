@@ -22,8 +22,9 @@ public class Professor extends Pessoa {
 
 	// metodos
 
-	public void receberAumento() {
-
+	public void receberAumento(double aumento) {
+		
+		this.salario += aumento;
 	}
 
 	// metodos getters e setters
