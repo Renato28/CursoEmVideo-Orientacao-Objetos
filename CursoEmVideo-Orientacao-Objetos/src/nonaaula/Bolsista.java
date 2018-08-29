@@ -16,7 +16,8 @@ public class Bolsista extends Aluno {
 		
 	}
 	
-	public void pagarMensalidade(double valor) {
+	@Override
+	public void pagarMensalidade() {
 		
 		
 	}
