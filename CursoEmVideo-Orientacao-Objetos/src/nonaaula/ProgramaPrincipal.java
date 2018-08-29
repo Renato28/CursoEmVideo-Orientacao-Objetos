@@ -20,21 +20,35 @@ public class ProgramaPrincipal {
 		
 		//definindo os valores dos atributos das classes
 		
+		//Pessoa
+		
 		p1.setNome("Renato");
 		p1.setIdade(30);
 		p1.setSexo("M");
 		
+		//Aluno
+		
 		p2.setNome("Andriel");
 		p2.setIdade(14);
 		p2.setSexo("M");
+		p2.setCurso("Inglês");
+		p2.setMatricula(123);
+		
+		//Professor
 		
 		p3.setNome("Rodrigo");
 		p3.setIdade(32);
 		p3.setSexo("M");
+		p3.setEspecialidade("Java");
+		p3.setSalario(1200);
+		
+		//Funcionaria
 		
 		p4.setNome("Maria");
 		p4.setIdade(28);
 		p4.setSexo("F");
+		p4.setSetor("Secretaria");
+		p4.setTrabalhando(true);
 		
 		//executando o metodo toString da classe Pessoa com o conceito de heranca
 		
