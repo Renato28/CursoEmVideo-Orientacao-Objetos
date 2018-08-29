@@ -51,7 +51,7 @@ public class Aluno extends Pessoa {
 	public String toString() {
 		
 		StringBuffer stringBuffer = new StringBuffer();
-		stringBuffer.append("Aluno: ");
+		stringBuffer.append("<b>Aluno:<b> ");
 		stringBuffer.append(" Nome: ");
 		stringBuffer.append(this.getNome());
 		stringBuffer.append(", Idade: ");
