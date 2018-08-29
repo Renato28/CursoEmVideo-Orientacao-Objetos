@@ -18,6 +18,24 @@ public class ProgramaPrincipal {
 		Professor p3 = new Professor();
 		Funcionario p4 = new Funcionario();
 		
+		//definindo os valores dos atributos das classes
+		
+		p1.setNome("Renato");
+		p1.setIdade(30);
+		p1.setSexo("M");
+		
+		p2.setNome("Andriel");
+		p2.setIdade(14);
+		p2.setSexo("M");
+		
+		p3.setNome("Rodrigo");
+		p3.setIdade(32);
+		p3.setSexo("M");
+		
+		p4.setNome("Maria");
+		p4.setIdade(28);
+		p4.setSexo("F");
+		
 		//exectando os metodos das classes
 		
 		p1.fazerAniversario();
