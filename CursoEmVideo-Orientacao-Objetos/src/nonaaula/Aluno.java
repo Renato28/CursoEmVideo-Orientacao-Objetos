@@ -18,6 +18,11 @@ public class Aluno extends Pessoa {
 		
 		System.out.println("Matricula cancelada com sucesso!");
 	}
+	
+	public void pagarMensalidade() {
+		
+		
+	}
 
 	// metodos getters e setters
 
