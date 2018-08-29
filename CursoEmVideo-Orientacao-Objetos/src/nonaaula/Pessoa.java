@@ -5,6 +5,9 @@ package nonaaula;
  * @author Renato Nobrega
  *
  */
+
+//classe abstrata
+
 public abstract class Pessoa {
 
 	// atributos
