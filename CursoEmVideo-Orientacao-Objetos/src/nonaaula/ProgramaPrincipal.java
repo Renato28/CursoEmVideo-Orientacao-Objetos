@@ -59,15 +59,15 @@ public class ProgramaPrincipal {
 		
 		//executando o metodo toString da classe Aluno
 		
-		System.out.println(p2.toString());
+		//System.out.println(p2.toString());
 		
 		//executando o metodo toString da classe Professor
 		
-		System.out.println(p3.toString());
+		//System.out.println(p3.toString());
 		
 		//executando o metodo toString da classe Funcionario
 		
-		System.out.println(p4.toString());
+		//System.out.println(p4.toString());
 		
 		//exectando os metodos das classes
 		
