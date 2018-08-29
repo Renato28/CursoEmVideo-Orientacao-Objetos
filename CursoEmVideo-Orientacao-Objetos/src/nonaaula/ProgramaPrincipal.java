@@ -15,7 +15,7 @@ public class ProgramaPrincipal {
 		
 		p1.fazerAniversario();
 		p2.cancelarMatricula();
-		p3.receberAumento();
+		p3.receberAumento(100);
 		p4.mudarTrabalho();
 	}
 
