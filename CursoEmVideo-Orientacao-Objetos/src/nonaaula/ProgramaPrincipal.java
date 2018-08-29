@@ -91,6 +91,10 @@ public class ProgramaPrincipal {
 		
 		visitante.fazerAniversario();
 		
+		//executando os valores dos atributos e metodos da classe Visitante
+		
+		System.out.println(visitante);
+		
 	}
 
 }
