@@ -11,6 +11,13 @@ public class ProgramaPrincipal {
 		Professor p3 = new Professor("Rodrigo", 35, "M");
 		Funcionario p4 = new Funcionario("Maria", 32, "F");*/
 		
+		//instanciando classes e criando objetos
+		
+		Pessoa p1 = new Pessoa();
+		Aluno p2 = new Aluno();
+		Professor p3 = new Professor();
+		Funcionario p4 = new Funcionario();
+		
 		//exectando os metodos das classes
 		
 		p1.fazerAniversario();
