@@ -23,7 +23,8 @@ public class Funcionario extends Pessoa{
 	// metodos
 
 	public void mudarTrabalho() {
-
+		
+		this.trabalhando = ! this.trabalhando;
 	}
 
 	// metodos getters e setters
