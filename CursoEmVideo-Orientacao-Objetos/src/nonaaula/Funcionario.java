@@ -46,13 +46,25 @@ public class Funcionario extends Pessoa{
 		this.trabalhando = trabalhando;
 	}
 	
-	//codigo comentado
 	
-	/*@Override
+	
+	@Override
 	public String toString() {
 		
-		return "Funcionario [setor=" + setor + ", trabalhando=" + trabalhando + "]";
-	}*/
+		StringBuffer stringBuffer = new StringBuffer();
+		stringBuffer.append("Nome: ");
+		stringBuffer.append(this.getNome());
+		stringBuffer.append(", Idade: ");
+		stringBuffer.append(this.getIdade());
+		stringBuffer.append(", Sexo: ");
+		stringBuffer.append(this.getSexo());
+		stringBuffer.append(", Setor: ");
+		stringBuffer.append(this.getSetor());
+		stringBuffer.append(", Trabalhando: ");
+		stringBuffer.append(this.isTrabalhando());
+		
+		return stringBuffer.toString();
+	}
 
 	
 }
