@@ -28,6 +28,15 @@ public class ProgramaPrincipal {
 		funcionario.setTrabalhando(true);
 		
 		System.out.println(funcionario);
+		
+		Professor professor = new Professor();
+		professor.setNome("Rodrigo");
+		professor.setIdade(32);
+		professor.setSexo("M");
+		professor.setEspecialidade("Java");
+		professor.setSalario(2500);
+		
+		System.out.println(professor);
 	}
 
 }
