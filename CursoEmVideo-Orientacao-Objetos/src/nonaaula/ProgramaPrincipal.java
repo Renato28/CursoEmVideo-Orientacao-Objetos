@@ -107,7 +107,7 @@ public class ProgramaPrincipal {
 		//executando os metodos da classe Bolsista
 		
 		bolsista.cancelarMatricula();
-		bolsista.pagarMensalidade(500);
+		bolsista.pagarMensalidade();
 		bolsista.fazerAniversario();
 		
 		//executando os valores dos atributos e metodos da classe Bolsista
