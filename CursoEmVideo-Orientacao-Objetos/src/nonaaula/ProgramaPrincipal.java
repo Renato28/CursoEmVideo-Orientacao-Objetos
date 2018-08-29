@@ -104,6 +104,12 @@ public class ProgramaPrincipal {
 		bolsista.setMatricula(456);
 		bolsista.setBolsa("Informatica");
 		
+		//executando os metodos da classe Bolsista
+		
+		bolsista.cancelarMatricula();
+		bolsista.pagarMensalidade(500);
+		bolsista.fazerAniversario();
+		
 	}
 
 }
