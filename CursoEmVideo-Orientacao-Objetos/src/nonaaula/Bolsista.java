@@ -8,6 +8,20 @@ public class Bolsista extends Aluno {
 
 	//criando o metodo getter e setter
 	
+	//metodos
+	
+	
+	public void renovarBolsa() {
+		
+		
+	}
+	
+	public void pagarMensalidade(double valor) {
+		
+		
+	}
+	
+	
 	public String getBolsa() {
 		return bolsa;
 	}
