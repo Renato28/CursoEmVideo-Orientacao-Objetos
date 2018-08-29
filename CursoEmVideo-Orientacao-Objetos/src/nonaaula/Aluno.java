@@ -16,7 +16,7 @@ public class Aluno extends Pessoa {
 
 	public void cancelarMatricula() {
 		
-		System.out.println("Matricula cancelada com sucesso!");
+		System.out.println("Matricula do aluno " + this.nome + " cancelada com sucesso!");
 	}
 	
 	public void pagarMensalidade() {
