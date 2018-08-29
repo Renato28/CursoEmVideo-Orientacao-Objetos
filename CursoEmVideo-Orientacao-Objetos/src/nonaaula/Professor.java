@@ -45,4 +45,12 @@ public class Professor extends Pessoa {
 		this.salario = salario;
 	}
 
+	@Override
+	public String toString() {
+		
+		return "Professor [especialidade=" + especialidade + ", salario=" + salario + "]";
+	}
+	
+	
+
 }
