@@ -9,16 +9,16 @@ public class Professor extends Pessoa {
 
 	// atributos
 	
-	//metodo construtor
+	private String especialidade;
+	private double salario;
 	
-	public Professor(String nome, int idade, String sexo) {
+	//codigo comentado
+	
+	/*public Professor(String nome, int idade, String sexo) {
 		
 		super(nome, idade, sexo);
 
-	}
-
-	private String especialidade;
-	private double salario;
+	}*/
 
 	// metodos
 
