@@ -123,6 +123,14 @@ public class ProgramaPrincipal {
 		tecnico.setMatricula(567);
 		tecnico.setRegistroProfissional(true);
 		
+		//executando os metodos da classe Tecnico
+		
+		tecnico.fazerAniversario();
+		tecnico.cancelarMatricula();
+		tecnico.praticar();
+		
+		
+		
 	}
 
 }
