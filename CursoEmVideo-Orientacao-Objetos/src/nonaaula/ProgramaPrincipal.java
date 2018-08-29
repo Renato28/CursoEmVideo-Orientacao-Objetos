@@ -36,6 +36,13 @@ public class ProgramaPrincipal {
 		p4.setIdade(28);
 		p4.setSexo("F");
 		
+		//executando o metodo toString da classe Pessoa com o conceito de heranca
+		
+		System.out.println(p1.toString());
+		System.out.println(p2.toString());
+		System.out.println(p3.toString());
+		System.out.println(p4.toString());
+		
 		//exectando os metodos das classes
 		
 		p1.fazerAniversario();
