@@ -129,6 +129,10 @@ public class ProgramaPrincipal {
 		tecnico.cancelarMatricula();
 		tecnico.praticar();
 		
+		//executando os valores dos atributos e metodos da classe Tecnico
+		
+		System.out.println(tecnico);
+		
 		
 		
 	}
