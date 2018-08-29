@@ -11,15 +11,6 @@ public class Funcionario extends Pessoa{
 	
 	private String setor;
 	private boolean trabalhando;
-	
-	//codigo comentado
-	
-	/*public Funcionario(String nome, int idade, String sexo) {
-		
-		super(nome, idade, sexo);
-		
-	}*/
-
 
 	// metodos
 
@@ -50,6 +41,8 @@ public class Funcionario extends Pessoa{
 	
 	@Override
 	public String toString() {
+		
+		//implementando o metodo toString com o StringBuffer
 		
 		StringBuffer stringBuffer = new StringBuffer();
 		stringBuffer.append("Funcionario: ");
