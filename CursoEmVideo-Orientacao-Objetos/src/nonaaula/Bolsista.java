@@ -43,6 +43,8 @@ public class Bolsista extends Aluno {
 		stringBuffer.append(this.getIdade());
 		stringBuffer.append(", Sexo: ");
 		stringBuffer.append(this.getSexo());
+		stringBuffer.append(", Bolsa: ");
+		stringBuffer.append(this.getBolsa());
 		
 		return stringBuffer.toString();
 	}
