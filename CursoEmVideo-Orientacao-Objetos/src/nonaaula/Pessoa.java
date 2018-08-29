@@ -59,6 +59,7 @@ public class Pessoa {
 	public String toString() {
 		
 		StringBuffer stringBuffer = new StringBuffer();
+		stringBuffer.append("Pessoa:");
 		stringBuffer.append("Nome: ");
 		stringBuffer.append(this.nome);
 		stringBuffer.append(", Idade: ");
