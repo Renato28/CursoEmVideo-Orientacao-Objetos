@@ -58,7 +58,15 @@ public class Pessoa {
 	@Override
 	public String toString() {
 		
-		return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + "]";
+		StringBuffer stringBuffer = new StringBuffer();
+		stringBuffer.append("Nome: ");
+		stringBuffer.append(this.nome);
+		stringBuffer.append(", Idade: ");
+		stringBuffer.append(this.idade);
+		stringBuffer.append(", Sexo: ");
+		stringBuffer.append(this.sexo);
+		
+		return stringBuffer.toString();
 	}
 	
 	
