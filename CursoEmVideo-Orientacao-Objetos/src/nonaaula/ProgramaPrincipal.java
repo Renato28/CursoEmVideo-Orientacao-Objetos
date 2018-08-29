@@ -8,7 +8,7 @@ public class ProgramaPrincipal {
 		pessoa.setNome("Renato");
 		pessoa.setIdade(30);
 		pessoa.setSexo("M");
-		
+		pessoa.fazerAniversario();
 		System.out.println(pessoa);
 		
 		Aluno aluno = new Aluno();
