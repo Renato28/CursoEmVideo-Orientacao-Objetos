@@ -18,6 +18,7 @@ public class ProgramaPrincipal {
 		aluno.setMatricula(123);
 		aluno.setCurso("Inglês");
 		aluno.cancelarMatricula();
+		aluno.fazerAniversario();
 		System.out.println(aluno);
 		
 		Funcionario funcionario = new Funcionario();
