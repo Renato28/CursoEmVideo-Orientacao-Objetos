@@ -52,7 +52,8 @@ public class Funcionario extends Pessoa{
 	public String toString() {
 		
 		StringBuffer stringBuffer = new StringBuffer();
-		stringBuffer.append("Nome: ");
+		stringBuffer.append("Funcionario: ");
+		stringBuffer.append(" Nome: ");
 		stringBuffer.append(this.getNome());
 		stringBuffer.append(", Idade: ");
 		stringBuffer.append(this.getIdade());
