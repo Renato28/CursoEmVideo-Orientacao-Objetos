@@ -12,14 +12,6 @@ public class Aluno extends Pessoa {
 	private int matricula;
 	private String curso;
 	
-	//codigo comentado
-	
-	/*public Aluno(String nome, int idade, String sexo) {
-
-		super(nome, idade, sexo);
-
-	}*/
-
 	// metodos
 
 	public void cancelarMatricula() {
@@ -44,11 +36,11 @@ public class Aluno extends Pessoa {
 	public void setCurso(String curso) {
 		this.curso = curso;
 	}
-
-	
 	
 	@Override
 	public String toString() {
+		
+		//implementando o metodo toString com o StringBuffer
 		
 		StringBuffer stringBuffer = new StringBuffer();
 		stringBuffer.append("Aluno: ");
