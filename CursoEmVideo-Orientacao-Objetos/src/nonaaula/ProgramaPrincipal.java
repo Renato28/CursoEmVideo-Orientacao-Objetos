@@ -19,6 +19,15 @@ public class ProgramaPrincipal {
 		aluno.setCurso("Inglês");
 		
 		System.out.println(aluno);
+		
+		Funcionario funcionario = new Funcionario();
+		funcionario.setNome("Maria");
+		funcionario.setIdade(28);
+		funcionario.setSexo("F");
+		funcionario.setSetor("Secretaria");
+		funcionario.setTrabalhando(true);
+		
+		System.out.println(funcionario);
 	}
 
 }
