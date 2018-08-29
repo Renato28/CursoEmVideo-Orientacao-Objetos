@@ -45,4 +45,12 @@ public class Aluno extends Pessoa {
 		this.curso = curso;
 	}
 
+	@Override
+	public String toString() {
+		
+		return "Aluno [matricula=" + matricula + ", curso=" + curso + "]";
+	}
+	
+	
+
 }
