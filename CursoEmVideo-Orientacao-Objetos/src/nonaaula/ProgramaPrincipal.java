@@ -80,6 +80,13 @@ public class ProgramaPrincipal {
 		
 		System.out.println(professor);
 		
+		//criando um objeto da classe Visitante e atribuindo valores aos seus atributos
+		
+		Visitante visitante = new Visitante();
+		visitante.setNome("Ricardo");
+		visitante.setIdade(25);
+		visitante.setSexo("M");
+		
 	}
 
 }
