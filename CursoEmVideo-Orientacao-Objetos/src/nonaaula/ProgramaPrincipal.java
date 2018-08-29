@@ -10,6 +10,15 @@ public class ProgramaPrincipal {
 		pessoa.setSexo("M");
 		
 		System.out.println(pessoa);
+		
+		Aluno aluno = new Aluno();
+		aluno.setNome("Andriel");
+		aluno.setIdade(14);
+		aluno.setSexo("M");
+		aluno.setMatricula(123);
+		aluno.setCurso("Inglês");
+		
+		System.out.println(aluno);
 	}
 
 }
