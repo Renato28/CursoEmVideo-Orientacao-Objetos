@@ -40,6 +40,12 @@ public class Peixe extends Animal{
 		
 		System.out.println("peixe não faz som");
 	}
-
+	
+	//metodos
+	
+	public void soltarBolha() {
+		
+		System.out.println("soltando bolhas");
+	}
 	
 }
