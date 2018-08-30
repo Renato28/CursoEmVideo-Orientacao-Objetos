@@ -6,6 +6,9 @@ package decimaaula;
  *
  */
 public class Ave {
-
+	
+	//atributos
+	
+	protected String corPena;
 	
 }
