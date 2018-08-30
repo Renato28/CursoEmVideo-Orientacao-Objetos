@@ -101,6 +101,25 @@ public class ProgramaPrincipal {
 		//executando os valores dos atributos da classe Cachorro
 		
 		System.out.println(cachorro);
+		
+		//criando um objeto e atribuindo valores aos atributos da classe Canguru
+		
+		Canguru canguru = new Canguru();
+		canguru.setPeso(30);
+		canguru.setIdade(18);
+		canguru.setMembros(4);
+		canguru.setCorDoPelo("marrom");
+		
+		//executando os metodos da classe Canguru
+		
+		canguru.alimentar();
+		canguru.emitirSom();
+		canguru.locomover();
+		canguru.usarBolsa();
+		
+		//executando os valores dos atributos da classe Canguru
+		
+		System.out.println(canguru);
 	}
 
 }
