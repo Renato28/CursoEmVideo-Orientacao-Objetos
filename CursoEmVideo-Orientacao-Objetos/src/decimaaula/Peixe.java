@@ -7,5 +7,7 @@ package decimaaula;
  */
 public class Peixe {
 	
+	//atributos
 	
+	protected String corDaEscama;
 }
