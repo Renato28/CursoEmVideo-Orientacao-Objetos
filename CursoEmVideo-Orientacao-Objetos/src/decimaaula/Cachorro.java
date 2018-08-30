@@ -5,7 +5,7 @@ package decimaaula;
  * @author Renato Nobrega
  *
  */
-public class Cachorro extends Mamifero {
+public class Cachorro extends Lobo {
 
 	// metodos
 
