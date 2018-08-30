@@ -7,5 +7,7 @@ package decimaaula;
  */
 public class Mamifero {
 
+	//atributos
 	
+	protected String corDoPelo;
 }
