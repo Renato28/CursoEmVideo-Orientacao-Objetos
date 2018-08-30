@@ -25,17 +25,20 @@ public class Reptil extends Animal {
 
 	@Override
 	public void locomover() {
-
+		
+		System.out.println("rastejando");
 	}
 
 	@Override
 	public void alimentar() {
-
+		
+		System.out.println("comendo vegetais");
 	}
 
 	@Override
 	public void emitirSom() {
-		// TODO Auto-generated method stub
+		
+		System.out.println("som de reptil");
 
 	}
 	
