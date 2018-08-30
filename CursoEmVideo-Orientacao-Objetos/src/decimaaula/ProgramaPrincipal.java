@@ -174,6 +174,24 @@ public class ProgramaPrincipal {
 		//executando os valores dos atributos da classe Goldfish
 		
 		System.out.println(goldfish);
+		
+		//criando um objeto e atribuindo valores aos atributos da classe Arara
+		
+		Arara arara = new Arara();
+		arara.setPeso(11.4);
+		arara.setIdade(7);
+		arara.setMembros(2);
+		arara.setCorPena("azul");
+		
+		//executando os metodos da classe Arara
+		
+		arara.alimentar();
+		arara.emitirSom();
+		arara.locomover();
+		
+		//executando os valores dos atributos da classe Arara
+		
+		System.out.println(arara);
 	}
 	
 	
