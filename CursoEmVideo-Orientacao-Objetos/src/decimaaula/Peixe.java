@@ -5,7 +5,7 @@ package decimaaula;
  * @author Renato Nobrega
  *
  */
-public class Peixe {
+public class Peixe extends Animal{
 
 	// atributos
 
@@ -21,4 +21,25 @@ public class Peixe {
 		this.corDaEscama = corDaEscama;
 	}
 
+	//sobreposicao dos metodos abstratos da classe Animal
+	
+	@Override
+	public void locomover() {
+		
+		
+	}
+
+	@Override
+	public void alimentar() {
+		
+		
+	}
+
+	@Override
+	public void emitirSom() {
+		
+		
+	}
+
+	
 }
