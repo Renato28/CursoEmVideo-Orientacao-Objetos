@@ -25,17 +25,20 @@ public class Mamifero extends Animal {
 
 	@Override
 	public void locomover() {
-
+		
+		System.out.println("correndo");
 	}
 
 	@Override
 	public void alimentar() {
-
+		
+		System.out.println("mamando");
 	}
 
 	@Override
 	public void emitirSom() {
-
+		
+		System.out.println("som de mamifero");
 	}
 	
 	//metodo toString
