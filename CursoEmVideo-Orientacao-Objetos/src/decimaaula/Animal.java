@@ -12,16 +12,16 @@ public abstract class Animal {
 	protected double peso;
 	protected int idade;
 	protected int membros;
-	
-	//metodos abstratos
-	
+
+	// metodos abstratos
+
 	public abstract void locomover();
-	
+
 	public abstract void alimentar();
-	
+
 	public abstract void emitirSom();
-	
-	//metodos getters e setters
+
+	// metodos getters e setters
 
 	public double getPeso() {
 		return peso;
@@ -46,15 +46,5 @@ public abstract class Animal {
 	public void setMembros(int membros) {
 		this.membros = membros;
 	}
-	
-	//metodo toString
-	
-	@Override
-	public String toString() {
-		
-		return "Animal [peso=" + peso + ", idade=" + idade + ", membros=" + membros + "]";
-	}
-	
-	
 
 }
