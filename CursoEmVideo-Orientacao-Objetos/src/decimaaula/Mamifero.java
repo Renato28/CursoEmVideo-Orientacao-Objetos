@@ -37,5 +37,13 @@ public class Mamifero extends Animal {
 	public void emitirSom() {
 
 	}
+	
+	//metodo toString
+	
+	@Override
+	public String toString() {
+		return "Peso: " + this.peso + " Idade: " + this.idade + " Membros: " + this.membros + " cor do pelo: "
+				+ this.corDoPelo;
+	}
 
 }
