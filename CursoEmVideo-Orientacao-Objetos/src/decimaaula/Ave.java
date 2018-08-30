@@ -20,6 +20,13 @@ public class Ave extends Animal {
 	public void setCorPena(String corPena) {
 		this.corPena = corPena;
 	}
+	
+	//metodos
+	
+	public void fazerNinho() {
+		
+		System.out.println("fazendo ninho");
+	}
 
 	// sobreposicao dos metodos abstratos da classe Animal
 
