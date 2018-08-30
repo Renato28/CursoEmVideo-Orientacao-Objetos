@@ -77,6 +77,7 @@ public class ProgramaPrincipal {
 		ave.alimentar();
 		ave.emitirSom();
 		ave.locomover();
+		ave.fazerNinho();
 		
 		//executando os valores dos atributos da classe Ave
 		
