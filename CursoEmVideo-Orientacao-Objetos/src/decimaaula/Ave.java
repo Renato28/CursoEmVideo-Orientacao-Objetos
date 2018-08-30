@@ -6,9 +6,19 @@ package decimaaula;
  *
  */
 public class Ave {
-	
-	//atributos
-	
+
+	// atributos
+
 	protected String corPena;
 	
+	//metodo getter e setter
+	
+	public String getCorPena() {
+		return corPena;
+	}
+
+	public void setCorPena(String corPena) {
+		this.corPena = corPena;
+	}
+
 }
