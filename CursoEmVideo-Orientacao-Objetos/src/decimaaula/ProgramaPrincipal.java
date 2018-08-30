@@ -138,6 +138,24 @@ public class ProgramaPrincipal {
 		//executando os valores dos atributos da classe Cobra
 		
 		System.out.println(cobra);
+		
+		//criando um objeto e atribuindo valores aos atributos da classe Tartaruga
+		
+		Tartaruga tartaruga = new Tartaruga();
+		tartaruga.setPeso(20.8);
+		tartaruga.setIdade(22);
+		tartaruga.setMembros(4);
+		tartaruga.setCorDaEscama("preto");
+		
+		//executando os metodos da classe Tartaruga
+		
+		tartaruga.alimentar();
+		tartaruga.emitirSom();
+		tartaruga.locomover();
+		
+		//executando os valores dos atributos da classe Tartaruga
+		
+		System.out.println(tartaruga);
 	}
 	
 	
