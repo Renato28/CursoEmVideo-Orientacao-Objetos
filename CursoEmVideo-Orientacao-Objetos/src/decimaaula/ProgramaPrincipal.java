@@ -44,6 +44,25 @@ public class ProgramaPrincipal {
 		//executando os valores dos atributos da classe Reptil
 		
 		System.out.println(reptil);
+		
+		//criando um objeto e atribuindo valores aos atributos da classe Peixe
+		
+		Peixe peixe = new Peixe();
+		peixe.setPeso(14.5);
+		peixe.setIdade(8);
+		peixe.setMembros(0);
+		peixe.setCorDaEscama("amarelo");
+		
+		//executando os metodos da classe Peixe
+		
+		peixe.alimentar();
+		peixe.emitirSom();
+		peixe.locomover();
+		peixe.soltarBolha();
+		
+		//executando os valores dos atributos da classe Peixe
+		
+		System.out.println(peixe);
 	}
 
 }
