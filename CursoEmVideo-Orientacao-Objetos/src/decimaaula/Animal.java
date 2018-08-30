@@ -13,6 +13,14 @@ public abstract class Animal {
 	protected int idade;
 	protected int membros;
 	
+	//metodos abstratos
+	
+	public abstract void locomover();
+	
+	public abstract void alimentar();
+	
+	public abstract void emitirSom();
+	
 	//metodos getters e setters
 
 	public double getPeso() {
