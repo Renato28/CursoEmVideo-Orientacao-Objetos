@@ -5,7 +5,7 @@ package decimaaula;
  * @author Renato Nobrega
  *
  */
-public class Reptil {
+public class Reptil extends Animal {
 
 	// atributos
 
@@ -19,6 +19,26 @@ public class Reptil {
 
 	public void setCorDaEscama(String corDaEscama) {
 		this.corDaEscama = corDaEscama;
+	}
+	
+	//sobreposicao dos metodos abstratos da classe Animal
+
+	@Override
+	public void locomover() {
+		
+		
+	}
+
+	@Override
+	public void alimentar() {
+		
+		
+	}
+
+	@Override
+	public void emitirSom() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
