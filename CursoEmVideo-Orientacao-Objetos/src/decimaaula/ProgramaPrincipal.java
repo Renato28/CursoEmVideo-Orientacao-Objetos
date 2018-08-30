@@ -120,6 +120,27 @@ public class ProgramaPrincipal {
 		//executando os valores dos atributos da classe Canguru
 		
 		System.out.println(canguru);
+		
+		//criando um objeto e atribuindo valores aos atributos da classe Cobra
+		
+		Cobra cobra = new Cobra();
+		cobra.setPeso(13.4);
+		cobra.setIdade(8);
+		cobra.setMembros(0);
+		cobra.setCorDaEscama("cinza");
+		
+		//executando os metodos da classe Cobra
+		
+		cobra.alimentar();
+		cobra.emitirSom();
+		cobra.locomover();
+		
+		//executando os valores dos atributos da classe Cobra
+		
+		System.out.println(cobra);
 	}
-
+	
+	
+	
+	
 }
