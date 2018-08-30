@@ -82,6 +82,25 @@ public class ProgramaPrincipal {
 		
 		System.out.println(ave);
 		
+		//criando um objeto e atribuindo valores aos atributos da classe Cachorro
+		
+		Cachorro cachorro = new Cachorro();
+		cachorro.setPeso(25.2);
+		cachorro.setIdade(15);
+		cachorro.setMembros(4);
+		cachorro.setCorDoPelo("preto");
+		
+		//executando os metodos da classe Cachorro
+		
+		cachorro.abanarRabo();
+		cachorro.alimentar();
+		cachorro.emitirSom();
+		cachorro.enterrarOsso();
+		cachorro.locomover();
+		
+		//executando os valores dos atributos da classe Cachorro
+		
+		System.out.println(cachorro);
 	}
 
 }
