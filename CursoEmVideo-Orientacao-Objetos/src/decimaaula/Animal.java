@@ -5,7 +5,12 @@ package decimaaula;
  * @author Renato Nobrega
  *
  */
-public class Animal {
+public abstract class Animal {
 
+	//atributos
+	
+	protected double peso;
+	protected int idade;
+	protected int membros;
 	
 }
