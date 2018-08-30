@@ -5,7 +5,7 @@ package decimaaula;
  * @author Renato Nobrega
  *
  */
-public class Canguru {
+public class Canguru extends Mamifero {
 
 	//metodos
 	
@@ -14,4 +14,12 @@ public class Canguru {
 		System.out.println("usando bolsa");
 	}
 	
+	//sobreposicao de metodo da classe Mamifero
+	
+	@Override
+	
+	public void locomover() {
+		
+		System.out.println("saltando");
+	}
 }
