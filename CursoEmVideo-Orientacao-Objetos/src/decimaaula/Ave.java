@@ -25,13 +25,13 @@ public class Ave extends Animal {
 
 	@Override
 	public void locomover() {
-		
+
 		System.out.println("voando");
 	}
 
 	@Override
 	public void alimentar() {
-		
+
 		System.out.println("comendo frutas");
 	}
 
@@ -39,6 +39,14 @@ public class Ave extends Animal {
 	public void emitirSom() {
 
 		System.out.println("som de ave");
+	}
+	
+	//metodo toString
+	
+	@Override
+	public String toString() {
+		return "Peso: " + this.peso + " idade: " + this.idade + " membros: " + this.membros + " cor da pena: "
+				+ this.corPena;
 	}
 
 }
