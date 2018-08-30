@@ -156,6 +156,24 @@ public class ProgramaPrincipal {
 		//executando os valores dos atributos da classe Tartaruga
 		
 		System.out.println(tartaruga);
+		
+		//criando um objeto e atribuindo valores aos atributos da classe Goldfish
+		
+		Goldfish goldfish = new Goldfish();
+		goldfish.setPeso(14);
+		goldfish.setIdade(5);
+		goldfish.setMembros(0);
+		goldfish.setCorDaEscama("dourado");
+		
+		//executando os metodos da classe Goldfish
+		
+		goldfish.alimentar();
+		goldfish.emitirSom();
+		goldfish.locomover();
+		
+		//executando os valores dos atributos da classe Goldfish
+		
+		System.out.println(goldfish);
 	}
 	
 	
