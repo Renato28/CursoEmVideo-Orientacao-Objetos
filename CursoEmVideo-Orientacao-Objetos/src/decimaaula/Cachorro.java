@@ -19,6 +19,15 @@ public class Cachorro extends Mamifero {
 		System.out.println("abanando o rabo");
 	}
 	
+	@Override
+	
+	//sobreposicao de metodo da classe Mamifero
+	
+	public void emitirSom() {
+		
+		System.out.println("Au! Au! Au!");
+	}
+	
 	//metodo toString
 	
 	@Override
