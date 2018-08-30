@@ -19,6 +19,24 @@ public class Cachorro extends Lobo {
 		System.out.println("abanando o rabo");
 	}
 	
+	//sobrecarga de metodos
+	
+	public void reagir(String frase) {
+		
+	}
+	
+	public void reagir(int hora, int minuto) {
+		
+	}
+	
+	public void reagir(boolean dono) {
+		
+	}
+	
+	public void reagir (int idade, double peso) {
+		
+	}
+	
 	@Override
 	
 	//sobreposicao de metodo da classe Mamifero
