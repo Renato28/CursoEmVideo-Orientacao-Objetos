@@ -14,11 +14,11 @@ public class Video implements AcoesVideo {
 	private int views;
 	private int curtidas;
 	private boolean reproduzindo;
-	
-	//metodo construtor
-	
+
+	// metodo construtor
+
 	public Video(String titulo) {
-		
+
 		this.titulo = titulo;
 		this.avaliacao = 1;
 		this.views = 0;
@@ -72,20 +72,30 @@ public class Video implements AcoesVideo {
 
 	@Override
 	public void play() {
-		
+
 		this.setReproduzindo(true);
 	}
 
 	@Override
 	public void pause() {
-		
+
 		this.setReproduzindo(false);
 	}
 
 	@Override
 	public void like() {
-		
+
 		this.setCurtidas(this.getCurtidas() + 1);
+	}
+	
+	
+	//metodo toString
+	
+	@Override
+	public String toString() {
+		
+		return "Video [titulo=" + titulo + ", avaliacao=" + avaliacao + ", views=" + views + ", curtidas=" + curtidas
+				+ ", reproduzindo=" + reproduzindo + "]";
 	}
 
 }
