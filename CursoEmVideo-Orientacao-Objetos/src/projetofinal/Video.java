@@ -5,7 +5,7 @@ package projetofinal;
  * @author Renato Nobrega
  *
  */
-public class Video {
+public class Video implements AcoesVideo {
 
 	// atributos
 
@@ -14,9 +14,9 @@ public class Video {
 	private int views;
 	private int curtidas;
 	private boolean reproduzindo;
-	
-	//metodos getters e setters
-	
+
+	// metodos getters e setters
+
 	public String getTitulo() {
 		return titulo;
 	}
@@ -55,6 +55,23 @@ public class Video {
 
 	public void setReproduzindo(boolean reproduzindo) {
 		this.reproduzindo = reproduzindo;
+	}
+
+	// metodos de sobreposicao
+
+	@Override
+	public void play() {
+
+	}
+
+	@Override
+	public void pause() {
+
+	}
+
+	@Override
+	public void like() {
+
 	}
 
 }
