@@ -58,9 +58,16 @@ public abstract class Pessoa {
 	public void setExperiencia(String experiencia) {
 		this.experiencia = experiencia;
 	}
-	
-	//metodo abstrato
-	
+
+	// metodo abstrato
+
 	public abstract void ganharExperiencia();
+
+	//metodo toString
+	
+	@Override
+	public String toString() {
+		return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + ", experiencia=" + experiencia + "]";
+	}
 
 }
