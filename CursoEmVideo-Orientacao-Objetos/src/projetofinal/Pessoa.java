@@ -14,17 +14,6 @@ public abstract class Pessoa {
 	protected String sexo;
 	protected String experiencia;
 
-	// construtor
-
-	public Pessoa(String nome, int idade, String sexo, String experiencia) {
-
-		super();
-		this.nome = nome;
-		this.idade = idade;
-		this.sexo = sexo;
-		this.experiencia = experiencia;
-	}
-
 	// metodos getters e setters
 
 	public String getNome() {
