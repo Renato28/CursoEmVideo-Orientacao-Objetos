@@ -51,5 +51,13 @@ public class Gafanhoto extends Pessoa {
 
 		this.setTotalAssistido(this.getTotalAssistido() + 1);
 	}
+	
+	//metodo toString
+	
+	@Override
+	public String toString() {
+		return "Gafanhoto [login=" + super.toString() + login + ", totalAssistido=" + totalAssistido + "]";
+	}
 
+	
 }
