@@ -14,9 +14,11 @@ public class Gafanhoto extends Pessoa {
 
 	// construtor
 
-	public Gafanhoto(String nome, int idade, String sexo, String experiencia) {
+	public Gafanhoto(String nome, int idade, String sexo, String login) {
 
-		super(nome, idade, sexo, experiencia);
+		super(nome, idade, sexo);
+		this.login = login;
+		this.totalAssistido = 0;
 
 	}
 
