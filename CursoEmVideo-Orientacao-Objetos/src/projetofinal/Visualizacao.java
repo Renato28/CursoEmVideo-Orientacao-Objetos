@@ -7,5 +7,8 @@ package projetofinal;
  */
 public class Visualizacao {
 	
+	//atributos
 	
+	private Gafanhoto espectador;
+	private String filme;
 }
