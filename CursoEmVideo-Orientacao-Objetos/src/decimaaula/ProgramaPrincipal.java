@@ -193,6 +193,24 @@ public class ProgramaPrincipal {
 		//executando os valores dos atributos da classe Arara
 		
 		System.out.println(arara);
+		
+		//criando objeto e atribuindo valores aos atributos da classe Lobo
+		
+		Lobo lobo = new Lobo();
+		lobo.setPeso(25.4);
+		lobo.setIdade(18);
+		lobo.setMembros(4);
+		lobo.setCorDoPelo("preto");
+		
+		//executando os metodos da classe Lobo
+		
+		lobo.alimentar();
+		lobo.emitirSom();
+		lobo.locomover();
+		
+		//executando os valores dos atributos da classe Lobo
+		
+		System.out.println(lobo);
 	}
 	
 	
