@@ -16,7 +16,7 @@ public abstract class Pessoa {
 	
 	//construtor
 
-	public Pessoa(String nome, int idade, String sexo, String experiencia) {
+	public Pessoa(String nome, int idade, String sexo) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
