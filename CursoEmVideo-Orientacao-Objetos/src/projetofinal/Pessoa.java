@@ -58,5 +58,9 @@ public abstract class Pessoa {
 	public void setExperiencia(String experiencia) {
 		this.experiencia = experiencia;
 	}
+	
+	//metodo abstrato
+	
+	public abstract void ganharExperiencia();
 
 }
