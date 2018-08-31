@@ -8,7 +8,7 @@ package projetofinal;
 public interface AcoesVideo {
 	
 	//metodos
-	
+	//alteracoes
 	public void play();
 	
 	public void pause();
