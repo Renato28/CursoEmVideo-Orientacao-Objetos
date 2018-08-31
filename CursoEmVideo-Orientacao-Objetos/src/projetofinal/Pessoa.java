@@ -7,5 +7,11 @@ package projetofinal;
  */
 public abstract class Pessoa {
 
+	//atributos
+	
+	protected String nome;
+	protected int idade;
+	protected String sexo;
+	protected String experiencia;
 	
 }
