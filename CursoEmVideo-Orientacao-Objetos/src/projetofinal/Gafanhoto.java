@@ -7,17 +7,34 @@ package projetofinal;
  */
 public class Gafanhoto extends Pessoa {
 
-	//atributos
-	
+	// atributos
+
 	private String login;
 	private int totalAssistido;
 	
-	// metodo de sobreposicao
+	//metodos getters e setters
+	
+	public String getLogin() {
+		return login;
+	}
 
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
+	public int getTotalAssistido() {
+		return totalAssistido;
+	}
+
+	public void setTotalAssistido(int totalAssistido) {
+		this.totalAssistido = totalAssistido;
+	}
+	
+	//metodo de sobreposicao
+	
 	@Override
 	public void ganharExperiencia() {
-		
-		
+
 	}
 
 }
