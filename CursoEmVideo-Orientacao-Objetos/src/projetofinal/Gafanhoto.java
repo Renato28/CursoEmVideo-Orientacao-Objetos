@@ -7,6 +7,11 @@ package projetofinal;
  */
 public class Gafanhoto extends Pessoa {
 
+	//atributos
+	
+	private String login;
+	private int totalAssistido;
+	
 	// metodo de sobreposicao
 
 	@Override
