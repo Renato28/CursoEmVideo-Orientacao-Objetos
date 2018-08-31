@@ -18,13 +18,15 @@ public class Video implements AcoesVideo {
 	// metodo construtor
 
 	public Video(String titulo) {
-
+		super();
 		this.titulo = titulo;
 		this.avaliacao = 1;
 		this.views = 0;
 		this.curtidas = 0;
 		this.reproduzindo = false;
 	}
+	
+	
 
 	// metodos getters e setters
 
