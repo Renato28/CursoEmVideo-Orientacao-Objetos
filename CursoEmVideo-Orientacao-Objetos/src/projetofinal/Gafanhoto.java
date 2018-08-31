@@ -36,5 +36,12 @@ public class Gafanhoto extends Pessoa {
 	public void ganharExperiencia() {
 
 	}
+	
+	//metodo
+	
+	public void viuMaisUm() {
+		
+		this.setTotalAssistido(this.getTotalAssistido() + 1);
+	}
 
 }
