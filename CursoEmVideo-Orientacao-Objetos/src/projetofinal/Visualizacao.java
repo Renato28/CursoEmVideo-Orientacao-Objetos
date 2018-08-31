@@ -18,11 +18,10 @@ public class Visualizacao {
 
 		this.espectador = espectador;
 		this.filme = filme;
-<<<<<<< HEAD
+
 		this.espectador.setTotalAssistido(this.espectador.getTotalAssistido() + 1);
 		this.filme.setViews(this.filme.getViews() + 1);
-=======
->>>>>>> 0ca855dff6538788267fd0de53c5ff71fe1c7534
+
 	}
 	
 	//metodos getters e setters
