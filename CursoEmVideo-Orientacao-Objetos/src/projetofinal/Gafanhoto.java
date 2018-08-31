@@ -11,9 +11,17 @@ public class Gafanhoto extends Pessoa {
 
 	private String login;
 	private int totalAssistido;
-	
-	//metodos getters e setters
-	
+
+	// construtor
+
+	public Gafanhoto(String nome, int idade, String sexo, String experiencia) {
+
+		super(nome, idade, sexo, experiencia);
+
+	}
+
+	// metodos getters e setters
+
 	public String getLogin() {
 		return login;
 	}
@@ -29,18 +37,18 @@ public class Gafanhoto extends Pessoa {
 	public void setTotalAssistido(int totalAssistido) {
 		this.totalAssistido = totalAssistido;
 	}
-	
-	//metodo de sobreposicao
-	
+
+	// metodo de sobreposicao
+
 	@Override
 	public void ganharExperiencia() {
 
 	}
-	
-	//metodo
-	
+
+	// metodo
+
 	public void viuMaisUm() {
-		
+
 		this.setTotalAssistido(this.getTotalAssistido() + 1);
 	}
 
