@@ -22,11 +22,16 @@ public class ProjetoYoutube {
 		gafanhotos[0] = new Gafanhoto("Renato", 30, "M", "Java");
 		gafanhotos[1] = new Gafanhoto("Felipe", 28, "M", "JavaScript");
 		
-		//executando os valores do vetor
+		//executando os valores do vetor da classe Video
 		
 		System.out.println(videos[0].toString());
 		System.out.println(videos[1].toString());
 		System.out.println(videos[2].toString());
+		
+		//executando os valores do vetor da classe Gafanhoto
+		
+		System.out.println(gafanhotos[0].toString());
+		System.out.println(gafanhotos[1].toString());
 		
 	}
 
