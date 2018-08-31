@@ -99,6 +99,13 @@ public class ProgramaPrincipal {
 		cachorro.enterrarOsso();
 		cachorro.locomover();
 		
+		//executando os metodos de sobrecarga da classe Cachorro
+		
+		cachorro.reagir(true);
+		cachorro.reagir("toma comida");
+		cachorro.reagir(15, 22);
+		cachorro.reagir(12, 15);
+				
 		//executando os valores dos atributos da classe Cachorro
 		
 		System.out.println(cachorro);
