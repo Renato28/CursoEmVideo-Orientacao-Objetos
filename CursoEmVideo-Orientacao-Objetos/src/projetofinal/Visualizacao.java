@@ -37,5 +37,19 @@ public class Visualizacao {
 	public void setFilme(String filme) {
 		this.filme = filme;
 	}
-
+	
+	public void avaliar() {
+		
+		//codigo
+	}
+	
+	public void avaliar(double nota) {
+		
+		//codigo
+	}
+	
+	public void avaliar(float porcentagem) {
+		
+		//codigo
+	}
 }
