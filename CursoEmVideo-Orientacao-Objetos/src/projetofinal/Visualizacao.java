@@ -6,9 +6,18 @@ package projetofinal;
  *
  */
 public class Visualizacao {
-	
-	//atributos
-	
+
+	// atributos
+
 	private Gafanhoto espectador;
 	private String filme;
+	
+	//construtor
+	
+	public Visualizacao(Gafanhoto espectador, String filme) {
+		
+		this.espectador = espectador;
+		this.filme = filme;
+	}
+
 }
