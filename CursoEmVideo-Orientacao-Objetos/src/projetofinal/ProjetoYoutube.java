@@ -16,6 +16,12 @@ public class ProjetoYoutube {
 		videos[1] = new Video("Aula 12 de JAVA");
 		videos[2] = new Video("Aula 10 de HTML5");
 		
+		//executando os valores do vetor
+		
+		System.out.println(videos[0].toString());
+		System.out.println(videos[1].toString());
+		System.out.println(videos[2].toString());
+		
 	}
 
 }
