@@ -39,6 +39,10 @@ public class ProjetoYoutube {
 		visualizacao[0] = new Visualizacao(gafanhotos[0], videos[0]);
 		visualizacao[1] = new Visualizacao(gafanhotos[1], videos[1]);
 		
+		//executando os valores do vetor da classe Visualização
+		
+		System.out.println(visualizacao.toString());
+		
 	}
 
 }
