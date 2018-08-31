@@ -7,14 +7,14 @@ package projetofinal;
  */
 public class Visualizacao {
 
-	// atributos
-
+	// atributos alterados
+	
 	private Gafanhoto espectador;
-	private String filme;
+	private Video filme;
 
 	// construtor
 
-	public Visualizacao(Gafanhoto espectador, String filme) {
+	public Visualizacao(Gafanhoto espectador, Video filme) {
 
 		this.espectador = espectador;
 		this.filme = filme;
@@ -30,17 +30,17 @@ public class Visualizacao {
 		this.espectador = espectador;
 	}
 
-	public String getFilme() {
+	public Video getFilme() {
 		return filme;
 	}
 
-	public void setFilme(String filme) {
+	public void setFilme(Video filme) {
 		this.filme = filme;
 	}
 	
 	public void avaliar() {
 		
-		//codigo
+		
 	}
 	
 	public void avaliar(double nota) {
@@ -52,4 +52,13 @@ public class Visualizacao {
 		
 		//codigo
 	}
+	
+	//metodo toString
+	
+	@Override
+	public String toString() {
+		return "Visualizacao [espectador=" + espectador + ", filme=" + filme + "]";
+	}
+	
+	
 }
